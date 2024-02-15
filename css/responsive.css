@@ -1,0 +1,666 @@
+@media screen and (max-width: 1310px){
+    .linkcard{
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 1270px){
+    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1215px){
+    .linkcard{
+        margin-left: 35%;
+    }
+    /* .sobremim {
+        margin-top: 50px;
+    } */
+}
+@media screen and (max-width: 1134px){
+    .linkcard{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 1119px){
+
+    /* .sobremim {
+        margin-top: 60px;
+    } */
+    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+        height: 228px;
+    }
+    .linkcard{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 992px){
+    #nav{
+        display: inline;
+    }
+    .linkcard{
+        margin-left: 15%;
+    }
+    #foto{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 911px){
+    .linkcard{
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 888px){
+    /* #title1 {
+        margin-left: 37%;
+        font-size: 40px;
+        margin-bottom: 2%;
+    } */
+    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+        height: 80%;
+    }
+    #foto{
+        width: 210px;
+    }
+    #cardProjeto4, #cardProjeto5, #cardProjeto6 {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    /* Header */
+    #nav {
+        display: none;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meu-nome {
+        margin-left: 37%;
+        margin-bottom: 70px;
+        font-size: 30pt;
+    }
+
+    .mensagem {
+        margin-bottom: 70px;
+        margin-left: 30%;
+        font-size: 35px;
+    }
+    #imgSobreMim{
+        display: none;
+    }
+    #foto {
+        margin-top: -20px;
+        width: 250px;
+        margin-left: 32%;
+    }
+
+    .divRedes {
+        margin-top: 15px;
+    }
+
+    .linkedin {
+        width: 35px;
+        margin-left: 43%;
+    }
+
+    .git {
+        width: 35px;
+    }
+
+    .insta {
+        width: 35px;
+    }
+
+    .sobremim {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title1 {
+        position: relative;
+        margin-left: 37%;
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+
+    #txtsobremim {
+        margin-left: 10%;
+        margin-right: 9%;
+        line-height: 25px;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    #title2 {
+        position: relative;
+        margin-left: 37%;
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    #icons {
+        font-size: 55px;
+    }
+
+    #card1 {
+        width: 90px;
+        height: 25%;
+        margin-left: 29%;
+        margin-top: 4%;
+    }
+
+    #card2 {
+        width: 90px;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card3 {
+        width: 90px;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card4 {
+        display: none;
+    }
+
+    #card5 {
+        width: 90px;
+        height: 25%;
+        margin-left: 29%;
+        margin-top: 2%;
+    }
+
+    #card6 {
+        width: 90px;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card7 {
+        width: 90px;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card8 {
+        display: none;
+    }
+
+    #title3 {
+        position: relative;
+        margin-left: 43%;
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    #cardProjeto1 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto2 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 45%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto3 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 85%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto4 {
+        width: 70%;
+        height: 150px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto5 {
+        display: none;
+        
+    }
+    #cardProjeto6 {
+        display: none;
+        
+    }
+    #txtfooter {
+        font-size: 13pt;
+        margin-left: 28%;
+    }
+}
+@media screen and (max-width: 530px) {
+
+    /* Header */
+    #nav {
+        display: none;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meu-nome {
+        margin-left: 26%;
+        margin-bottom: 90px;
+        position: relative;
+    }
+
+    .mensagem {
+        margin-top: 300px;
+        margin-left: 13%;
+        font-size: 35px;
+        position: absolute;
+    }
+
+    #foto {
+        margin-top: -10px;
+        width: 230px;
+        margin-left: 23%;
+        position: absolute;
+    }
+
+    .divRedes {
+        margin-top: -75%;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .linkedin {
+        width: 35px;
+        margin-left: 36%;
+    }
+
+    .git {
+        width: 35px;
+    }
+
+    .insta {
+        width: 35px;
+    }
+
+    .sobremim {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title1 {
+        position: relative;
+        margin-left: 25%;
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+
+    #txtsobremim {
+        margin-left: 10%;
+        margin-right: 9%;
+        line-height: 25px;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .habilidades{
+        margin-top: -100px;
+    }
+    #title2 {
+        position: relative;
+        margin-left: 25%;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    #icons {
+        font-size: 55px;
+    }
+
+    #card1 {
+        width: 22%;
+        height: 25%;
+        margin-left: 16%;
+        margin-top: 4%;
+    }
+
+    #card2 {
+        width: 22%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card3 {
+        width: 22%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card4 {
+        display: none;
+    }
+
+    #card5 {
+        width: 22%;
+        height: 25%;
+        margin-left: 16%;
+        margin-top: 2%;
+    }
+
+    #card6 {
+        width: 22%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card7 {
+        width: 22%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card8 {
+        display: none;
+    }
+    .projetos{
+        margin-top: 40px;
+    }
+    #title3 {
+        position: relative;
+        margin-left: 33%;
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    #cardProjeto1 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto2 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 60%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto3 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 115%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto4 {
+        width: 70%;
+        height: 150px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto5 {
+        display: none;
+        
+    }
+    #cardProjeto6 {
+        display: none;
+        
+    }
+    #txtfooter {
+        font-size: 13pt;
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .divRedes{
+        margin-top: -95%;
+    }
+    #foto {
+        margin-top: -20px;
+        width: 230px;
+        margin-left: 23%;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 375px) {
+    .divRedes{
+        margin-top: -95%;
+    }
+    #foto {
+        margin-top: 2px;
+        width: 230px;
+        margin-left: 23%;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 360px) {
+    .divRedes{
+        margin-top: -105%;
+    }
+    #foto {
+        margin-top: 5px;
+        width: 230px;
+        margin-left: 22%;
+        position: absolute;
+    }
+    .mensagem {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 320px) {
+     /* Header */
+     #nav {
+        display: none;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meu-nome {
+        margin-left: 23%;
+        margin-top: 180px;
+        position: relative;
+        font-size: 35px;
+    }
+
+    .mensagem {
+        margin-top: 220px;
+        margin-left: 10%;
+        font-size: 30px;
+        position: absolute;
+    }
+
+    #foto {
+        margin-top: -8px;
+        width: 190px;
+        margin-left: 21%;
+        position: absolute;
+    }
+
+    .divRedes {
+        margin-top: -145%;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .linkedin {
+        width: 33px;
+        margin-left: 34%;
+    }
+
+    .git {
+        width: 33px;
+    }
+
+    .insta {
+        width: 33px;
+    }
+
+    .sobremim {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    #title1 {
+        position: relative;
+        margin-left: 23%;
+        font-size: 35px;
+        margin-bottom: 2%;
+    }
+
+    #txtsobremim {
+        margin-left: 10%;
+        margin-right: 9%;
+        line-height: 25px;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .habilidades{
+        margin-top: -100px;
+    }
+    #title2 {
+        position: relative;
+        margin-left: 23%;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    #icons {
+        font-size: 50px;
+    }
+
+    #card1 {
+        width: 25%;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 4%;
+    }
+
+    #card2 {
+        width: 25%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card3 {
+        width: 25%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card4 {
+        display: none;
+    }
+
+    #card5 {
+        width: 25%;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 2%;
+    }
+
+    #card6 {
+        width: 25%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card7 {
+        width: 25%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card8 {
+        display: none;
+    }
+    .projetos{
+        margin-top: 40px;
+    }
+    #title3 {
+        position: relative;
+        margin-left: 33%;
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+
+    #cardProjeto1 {
+        width: 70%;
+        height: 198px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto2 {
+        width: 70%;
+        height: 198px;
+        margin-left: 17%;
+        margin-top: 72%;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto3 {
+        width: 70%;
+        height: 198px;
+        margin-left: 17%;
+        margin-top: 138%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto4 {
+        width: 70%;
+        height: 150px;
+        margin-left: 17%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto5 {
+        display: none;
+        
+    }
+    #cardProjeto6 {
+        display: none;
+        
+    }
+    #txtfooter {
+        font-size: 13pt;
+        margin-left: 15%;
+    }
+}
+
+

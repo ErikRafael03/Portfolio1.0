@@ -1,0 +1,323 @@
+/*#00BF3D Cor para o Site, sujeita a mudança*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00BF3D;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #111111;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: #000000;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#NavLink {
+    margin-left: 37%;
+}
+
+#Link {
+    color: white;
+}
+
+.meu-nome {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 250px;
+}
+
+.mensagem {
+    font-size: 40px;
+    color: #00BF3D;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 300px;
+}
+
+.insta {
+    width: 35px;
+    margin-left: 3px;
+    margin-top: 470px;
+    position: relative;
+}
+
+.linkedin {
+    width: 35px;
+    margin-left: 60px;
+    margin-top: 470px;
+    position: relative;
+}
+
+.git {
+    width: 35px;
+    margin-left: 3px;
+    margin-top: 470px;
+    position: relative;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+#title1 {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 41%;
+    margin-top: 95px;
+}
+
+#foto {
+    width: 300px;
+    margin-left: 65%;
+    margin-top: 120px;
+    position: absolute;
+}
+#imgSobreMim {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 13%;
+    position: absolute;
+}
+
+#txtsobremim {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: 230px;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 180px;
+    text-align: justify;
+}
+
+#title2 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 41%;
+    margin-top: 10%;
+
+}
+
+.imghabi1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.imghabi2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#icons {
+    font-size: 70px;
+    color: #00BF3D;
+}
+
+#card1 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 31%;
+    margin-top: 4%;
+}
+
+#card2 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+#card3 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+#card4 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+#card5 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 31%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#card6 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#card7 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#card8 {
+    width: 100px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#title3 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 43%;
+    margin-top: 10px;
+
+}
+
+.meusprojetos {
+    display: flex;
+    flex-direction: row;
+}
+
+#subtitle {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cardProjeto1 {
+    width: 20%;
+    height: 190px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border: 1px;
+    border-color: #00BF3D;
+}
+
+#cardProjeto2 {
+    width: 20%;
+    height: 190px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#cardProjeto3 {
+    width: 20%;
+    height: 190px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#cardProjeto4 {
+    width: 20%;
+    height: 150px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 17%;
+    margin-bottom: 2%;
+}
+
+#cardProjeto5 {
+    width: 20%;
+    height: 150px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+#cardProjeto6 {
+    width: 20%;
+    height: 150px;
+    background-color: #1d1d1d;
+    position: relative;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+.txtcard {
+    color: #a7a7a7;
+    margin-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkcard {
+    text-decoration: none;
+    color: #00BF3D;
+    margin-left: 45%;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 8%;
+    height: 60px;
+}
+
+#txtfooter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    margin-left: 42%;
+    margin-top: 10px;
+    color: #302f2f;
+}
+
+.linkfooter {
+    text-decoration: none;
+}
