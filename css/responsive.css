@@ -80,25 +80,27 @@
     .meu-nome {
         margin-left: 37%;
         margin-bottom: 70px;
-        font-size: 30pt;
+        font-size: 28pt;
     }
 
     .mensagem {
         margin-bottom: 70px;
         margin-left: 30%;
-        font-size: 35px;
+        font-size: 32px;
     }
     #imgSobreMim{
         display: none;
     }
     #foto {
         margin-top: -20px;
-        width: 250px;
-        margin-left: 32%;
+        width: 220px;
+        margin-left: 35%;
+        padding-top: 20px;
     }
 
     .divRedes {
         margin-top: 15px;
+        padding-bottom: 10px;
     }
 
     .linkedin {
@@ -115,7 +117,7 @@
     }
 
     .sobremim {
-        margin-top: 50px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
     }
@@ -134,7 +136,9 @@
         margin-top: 5%;
         font-size: 20px;
     }
-
+    .habilidades {
+        margin-top: -100px;
+    }
     #title2 {
         position: relative;
         margin-left: 37%;
@@ -215,7 +219,7 @@
         width: 70%;
         height: 190px;
         margin-left: 17%;
-        margin-top: 45%;
+        margin-top: 240px;
         margin-bottom: 2%;
         position: absolute;
     }
@@ -223,7 +227,200 @@
         width: 70%;
         height: 190px;
         margin-left: 17%;
-        margin-top: 85%;
+        margin-top: 450px;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto4 {
+        width: 70%;
+        height: 150px;
+        margin-left: 17%;
+        margin-top: 5px;
+        margin-bottom: 2%;
+        
+    }
+    #cardProjeto5 {
+        display: none;
+        
+    }
+    #cardProjeto6 {
+        display: none;
+        
+    }
+    .linkcard{
+        margin-left: 0;
+    }
+    #txtfooter {
+        font-size: 13pt;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 530px) {
+
+    /* Header */
+    #nav {
+        display: none;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meu-nome {
+        margin-left: 35%;
+        margin-bottom: 90px;
+        position: relative;
+        font-size: 32px;
+    }
+
+    .mensagem {
+        margin-top: 300px;
+        margin-left: 24%;
+        font-size: 32px;
+        position: absolute;
+    }
+
+    #foto {
+        margin-top: -10px;
+        width: 200px;
+        margin-left: 31%;
+        position: absolute;
+    }
+
+    .divRedes {
+        margin-top: -75%;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .linkedin {
+        width: 35px;
+        margin-left: 40%;
+    }
+
+    .git {
+        width: 35px;
+    }
+
+    .insta {
+        width: 35px;
+    }
+
+    .sobremim {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title1 {
+        position: relative;
+        margin-left: 35%;
+        font-size: 35px;
+        margin-bottom: 2%;
+    }
+
+    #txtsobremim {
+        margin-left: 10%;
+        margin-right: 9%;
+        line-height: 25px;
+        margin-top: 5%;
+        font-size: 18px;
+    }
+    .habilidades{
+        margin-top: -100px;
+    }
+    #title2 {
+        position: relative;
+        margin-left: 35%;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    #icons {
+        font-size: 50px;
+    }
+
+    #card1 {
+        width: 17%;
+        height: 25%;
+        margin-left: 24%;
+        margin-top: 4%;
+    }
+
+    #card2 {
+        width: 17%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card3 {
+        width: 17%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    #card4 {
+        display: none;
+    }
+
+    #card5 {
+        width: 17%;
+        height: 25%;
+        margin-left: 24%;
+        margin-top: 2%;
+    }
+
+    #card6 {
+        width: 17%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card7 {
+        width: 17%;
+        height: 25%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #card8 {
+        display: none;
+    }
+    .projetos{
+        margin-top: 40px;
+    }
+    #title3 {
+        position: relative;
+        margin-left: 42%;
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+
+    #cardProjeto1 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 5%;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+    #cardProjeto2 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 240px;
+        margin-bottom: 2%;
+        position: absolute;
+    }
+    #cardProjeto3 {
+        width: 70%;
+        height: 190px;
+        margin-left: 17%;
+        margin-top: 460px;
         margin-bottom: 2%;
         
     }
@@ -248,418 +445,360 @@
         margin-left: 28%;
     }
 }
-@media screen and (max-width: 530px) {
-
-    /* Header */
-    #nav {
-        display: none;
+@media screen and (max-width: 430px) {
+    
+    #foto {
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 27%;
+        position: absolute;
     }
-
-    .topo {
-        display: flex;
-        flex-direction: column;
-    }
-
     .meu-nome {
-        margin-left: 26%;
+        margin-left: 32%;
+        margin-top: 400px;
         margin-bottom: 90px;
-        position: relative;
+        font-size: 34px;
     }
 
     .mensagem {
-        margin-top: 300px;
-        margin-left: 13%;
-        font-size: 35px;
-        position: absolute;
+        margin-top: 450px;
+        margin-left: 17%;
+        font-size: 34px;
     }
-
-    #foto {
-        margin-top: -10px;
-        width: 230px;
-        margin-left: 23%;
-        position: absolute;
-    }
-
-    .divRedes {
-        margin-top: -75%;
+    .divRedes{
+        margin-top: -195px;
         position: relative;
-        margin-bottom: 40px;
     }
-
     .linkedin {
-        width: 35px;
-        margin-left: 36%;
+        margin-left: 38%;
     }
-
-    .git {
-        width: 35px;
+    .sobremim{
+        padding-top: 30px;
     }
-
-    .insta {
-        width: 35px;
-    }
-
-    .sobremim {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-    }
-
     #title1 {
-        position: relative;
-        margin-left: 25%;
-        font-size: 40px;
-        margin-bottom: 2%;
-    }
-
-    #txtsobremim {
-        margin-left: 10%;
-        margin-right: 9%;
-        line-height: 25px;
-        margin-top: 5%;
-        font-size: 20px;
-    }
-    .habilidades{
-        margin-top: -100px;
-    }
-    #title2 {
-        position: relative;
-        margin-left: 25%;
-        font-size: 40px;
+        margin-left: 31%;
+        font-size: 35px;
         margin-bottom: 10px;
     }
-
-    #icons {
-        font-size: 55px;
-    }
-
-    #card1 {
-        width: 22%;
-        height: 25%;
-        margin-left: 16%;
-        margin-top: 4%;
-    }
-
-    #card2 {
-        width: 22%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 4%;
-    }
-
-    #card3 {
-        width: 22%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 4%;
-    }
-
-    #card4 {
-        display: none;
-    }
-
-    #card5 {
-        width: 22%;
-        height: 25%;
-        margin-left: 16%;
-        margin-top: 2%;
-    }
-
-    #card6 {
-        width: 22%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    }
-
-    #card7 {
-        width: 22%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    }
-
-    #card8 {
-        display: none;
-    }
-    .projetos{
-        margin-top: 40px;
+    #title2 {
+        margin-left: 31%;
+        font-size: 35px;
+        margin-bottom: 10px;
     }
     #title3 {
-        position: relative;
-        margin-left: 33%;
-        font-size: 40px;
-        margin-bottom: 5%;
-    }
-
-    #cardProjeto1 {
-        width: 70%;
-        height: 190px;
-        margin-left: 17%;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        position: absolute;
-    }
-    #cardProjeto2 {
-        width: 70%;
-        height: 190px;
-        margin-left: 17%;
-        margin-top: 60%;
-        margin-bottom: 2%;
-        position: absolute;
-    }
-    #cardProjeto3 {
-        width: 70%;
-        height: 190px;
-        margin-left: 17%;
-        margin-top: 115%;
-        margin-bottom: 2%;
-        
-    }
-    #cardProjeto4 {
-        width: 70%;
-        height: 150px;
-        margin-left: 17%;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        
-    }
-    #cardProjeto5 {
-        display: none;
-        
-    }
-    #cardProjeto6 {
-        display: none;
-        
-    }
-    #txtfooter {
-        font-size: 13pt;
-        margin-left: 22%;
-    }
-}
-@media screen and (max-width: 390px) {
-    .divRedes{
-        margin-top: -95%;
-    }
-    #foto {
-        margin-top: -20px;
-        width: 230px;
-        margin-left: 23%;
-        position: absolute;
-    }
-}
-@media screen and (max-width: 375px) {
-    .divRedes{
-        margin-top: -95%;
-    }
-    #foto {
-        margin-top: 2px;
-        width: 230px;
-        margin-left: 23%;
-        position: absolute;
-    }
-}
-@media screen and (max-width: 360px) {
-    .divRedes{
-        margin-top: -105%;
-    }
-    #foto {
-        margin-top: 5px;
-        width: 230px;
-        margin-left: 22%;
-        position: absolute;
-    }
-    .mensagem {
-        margin-left: 10%;
-    }
-}
-@media screen and (max-width: 320px) {
-     /* Header */
-     #nav {
-        display: none;
-    }
-
-    .topo {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .meu-nome {
-        margin-left: 23%;
-        margin-top: 180px;
-        position: relative;
-        font-size: 35px;
-    }
-
-    .mensagem {
-        margin-top: 220px;
-        margin-left: 10%;
-        font-size: 30px;
-        position: absolute;
-    }
-
-    #foto {
-        margin-top: -8px;
-        width: 190px;
-        margin-left: 21%;
-        position: absolute;
-    }
-
-    .divRedes {
-        margin-top: -145%;
-        position: relative;
-        margin-bottom: 40px;
-    }
-
-    .linkedin {
-        width: 33px;
-        margin-left: 34%;
-    }
-
-    .git {
-        width: 33px;
-    }
-
-    .insta {
-        width: 33px;
-    }
-
-    .sobremim {
-        display: flex;
-        flex-direction: column;
-        margin-top: -20px;
-    }
-
-    #title1 {
-        position: relative;
-        margin-left: 23%;
-        font-size: 35px;
-        margin-bottom: 2%;
-    }
-
-    #txtsobremim {
-        margin-left: 10%;
-        margin-right: 9%;
-        line-height: 25px;
-        margin-top: 5%;
-        font-size: 20px;
-    }
-    .habilidades{
-        margin-top: -100px;
-    }
-    #title2 {
-        position: relative;
-        margin-left: 23%;
+        margin-left: 37%;
         font-size: 35px;
         margin-bottom: 10px;
     }
-
     #icons {
         font-size: 50px;
     }
 
     #card1 {
-        width: 25%;
-        height: 25%;
-        margin-left: 11%;
-        margin-top: 4%;
+        width: 19%;
+        margin-left: 20%;
     }
 
     #card2 {
-        width: 25%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 4%;
+        width: 19%;
     }
 
     #card3 {
-        width: 25%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 4%;
-    }
-
-    #card4 {
-        display: none;
+        width: 19%;
     }
 
     #card5 {
-        width: 25%;
-        height: 25%;
-        margin-left: 11%;
-        margin-top: 2%;
+        width: 19%;
+        margin-left: 20%;
     }
 
     #card6 {
-        width: 25%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
+        width: 19%;
     }
 
     #card7 {
-        width: 25%;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    }
-
-    #card8 {
-        display: none;
-    }
-    .projetos{
-        margin-top: 40px;
-    }
-    #title3 {
-        position: relative;
-        margin-left: 33%;
-        font-size: 35px;
-        margin-bottom: 5%;
-    }
-
-    #cardProjeto1 {
-        width: 70%;
-        height: 198px;
-        margin-left: 17%;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        position: absolute;
-    }
-    #cardProjeto2 {
-        width: 70%;
-        height: 198px;
-        margin-left: 17%;
-        margin-top: 72%;
-        margin-bottom: 2%;
-        position: absolute;
-    }
-    #cardProjeto3 {
-        width: 70%;
-        height: 198px;
-        margin-left: 17%;
-        margin-top: 138%;
-        margin-bottom: 2%;
-        
-    }
-    #cardProjeto4 {
-        width: 70%;
-        height: 150px;
-        margin-left: 17%;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        
-    }
-    #cardProjeto5 {
-        display: none;
-        
-    }
-    #cardProjeto6 {
-        display: none;
-        
+        width: 19%;
     }
     #txtfooter {
-        font-size: 13pt;
+        margin-left: 26%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .divRedes{
+        margin-top: -235px;
+        position: relative;
+    }
+    #foto {
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 27%;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 414px) and (max-height: 736px) {
+    .divRedes {
+        margin-top: -320px;
+        position: relative;
+    }
+    #foto {
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 28%;
+        position: absolute;
+    }
+    .meu-nome {
+        margin-left: 32%;
+        margin-top: 330px;
+        margin-bottom: 90px;
+        font-size: 34px;
+    }
+
+    .mensagem {
+        margin-top: 370px;
+        margin-left: 17%;
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .divRedes{
+        margin-top: -285px;
+    }
+    #foto {
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 27%;
+        position: absolute;
+    }
+    .meu-nome {
+        margin-left: 32%;
+        margin-top: 400px;
+        margin-bottom: 90px;
+        font-size: 34px;
+    }
+
+    .mensagem {
+        margin-top: 450px;
+        margin-left: 13%;
+        font-size: 34px;
+    }
+    #txtfooter {
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .divRedes{
+        margin-top: -330px;
+    }
+    .linkedin {
+        margin-left: 35%;
+    }
+    #foto {
+        margin-top: 30px;
+        width: 180px;
+        margin-left: 28%;
+        position: absolute;
+    }
+    .meu-nome {
+        margin-left: 32%;
+        margin-top: 280px;
+        margin-bottom: 90px;
+        font-size: 30px;
+    }
+    .mensagem {
+        margin-top: 310px;
         margin-left: 15%;
+        font-size: 30px;
+    }
+    .sobremim{
+        padding-top: 10px; 
+    }
+    #title1 {
+        margin-left: 30%;
+        font-size: 33px;
+    }
+    #title2 {
+        margin-left: 30%;
+        font-size: 33px;
+    }
+    #title3 {
+        margin-left: 37%;
+        font-size: 33px;
+    }
+    #icons {
+        font-size: 48px;
+    }
+
+    #card1 {
+        width: 20%;
+        margin-left: 19%;
+    }
+
+    #card2 {
+        width: 20%;
+    }
+
+    #card3 {
+        width: 20%;
+    }
+
+    #card5 {
+        width: 20%;
+        margin-left: 19%;
+    }
+
+    #card6 {
+        width: 20%;
+    }
+
+    #card7 {
+        width: 20%;
+    }
+    #txtfooter {
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .divRedes{
+        margin-top: -310px;
+    }
+    .linkedin {
+        margin-left: 35%;
+    }
+    #foto {
+        margin-top: 80px;
+        width: 180px;
+        margin-left: 28%;
+        position: absolute;
+    }
+    .meu-nome {
+        margin-left: 32%;
+        margin-top: 330px;
+        margin-bottom: 90px;
+        font-size: 30px;
+    }
+    .mensagem {
+        margin-top: 370px;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+    .sobremim{
+        padding-top: 10px; 
+    }
+    #title1 {
+        margin-left: 30%;
+        font-size: 33px;
+    }
+    #title2 {
+        margin-left: 28%;
+        font-size: 33px;
+    }
+    #title3 {
+        margin-left: 37%;
+        font-size: 33px;
+    }
+    #icons {
+        font-size: 48px;
+    }
+
+    #card1 {
+        width: 22%;
+        margin-left: 15%;
+    }
+
+    #card2 {
+        width: 22%;
+    }
+
+    #card3 {
+        width: 22%;
+    }
+
+    #card5 {
+        width: 22%;
+        margin-left: 15%;
+    }
+
+    #card6 {
+        width: 22%;
+    }
+
+    #card7 {
+        width: 22%;
+    }
+    #txtfooter {
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .divRedes{
+        margin-top: -310px;
+    }
+    .linkedin {
+        margin-left: 35%;
+    }
+    #foto {
+        margin-top: 80px;
+        width: 180px;
+        margin-left: 28%;
+        position: absolute;
+    }
+    .meu-nome {
+        margin-left: 32%;
+        margin-top: 330px;
+        margin-bottom: 90px;
+        font-size: 30px;
+    }
+    .mensagem {
+        margin-top: 370px;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+    .sobremim{
+        padding-top: 10px; 
+    }
+    #title1 {
+        margin-left: 30%;
+        font-size: 33px;
+    }
+    #title2 {
+        margin-left: 28%;
+        font-size: 33px;
+    }
+    #title3 {
+        margin-left: 37%;
+        font-size: 33px;
+    }
+    #icons {
+        font-size: 48px;
+    }
+
+    #card1 {
+        width: 22%;
+        margin-left: 15%;
+    }
+
+    #card2 {
+        width: 22%;
+    }
+
+    #card3 {
+        width: 22%;
+    }
+
+    #card5 {
+        width: 22%;
+        margin-left: 15%;
+    }
+
+    #card6 {
+        width: 22%;
+    }
+
+    #card7 {
+        width: 22%;
+    }
+    #txtfooter {
+        margin-left: 20%;
     }
 }
 
