@@ -587,7 +587,7 @@
 }
 @media screen and (max-width: 375px) {
     .divRedes{
-        margin-top: -90%;
+        margin-top: -400px;
     }
     .linkedin {
         margin-left: 35%;
