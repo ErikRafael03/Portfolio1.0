@@ -753,6 +753,7 @@
         margin-top: -155%;
         position: relative;
         padding-bottom: 30%;
+        display: none;
     }
     .linkedin {
         margin-left: 35%;
