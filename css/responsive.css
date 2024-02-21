@@ -310,14 +310,14 @@
     }
 
     .sobremim {
-        padding-top: 20px;
+        padding-top: 15%;
         display: flex;
         flex-direction: column;
     }
 
     #title1 {
         position: relative;
-        margin-left: 35%;
+        margin:auto;
         font-size: 35px;
         margin-bottom: 2%;
     }
@@ -341,6 +341,7 @@
 
     #icons {
         font-size: 50px;
+        margin: auto;
     }
 
     #card1 {
@@ -450,22 +451,21 @@
 @media screen and (max-width: 430px) {
     
     #foto {
-        margin-top: 10%;
         width: 200px;
-        margin-left: 28%;
+        margin-left: 28%; 
         position: absolute;
     }
     .meu-nome {
-        margin-left: 32%;
+        margin:auto;
         margin-top: 70%;
-        margin-bottom: 90px;
+        margin-bottom: 0px;
         font-size: 34px;
     }
 
     .mensagem {
-        margin-top: 80%;
-        margin-left: 16%;
+        margin:auto;
         font-size: 34px;
+        position: relative;
     }
     .divRedes{
         margin-top: -105%;
@@ -475,8 +475,12 @@
     .linkedin {
         margin-left: 38%;
     }
+    .topo{
+        position: relative;
+        padding-bottom: 10%;
+    }
     .sobremim{
-        padding-top: 30px;
+        padding-top: 20%;
     }
     #title1 {
         margin-left: 31%;
@@ -487,6 +491,7 @@
         margin-left: 31%;
         font-size: 35px;
         margin-bottom: 10px;
+        
     }
     #title3 {
         margin-left: 37%;
@@ -495,11 +500,13 @@
     }
     #icons {
         font-size: 50px;
+        margin: auto;
     }
 
     #card1 {
         width: 19%;
         margin-left: 20%;
+        
     }
 
     #card2 {
@@ -526,9 +533,9 @@
         margin-left: 26%;
     }
 }
- @media screen and (max-width: 414px) {/*OLHAR NOVAMENTE */
+ /* @media screen and (max-width: 414px)and (max-height: 736px) {
     .divRedes{
-        margin-top: -115%;
+        margin-top: -110%;
         padding-bottom: 80%;
     }
     #foto {
@@ -537,13 +544,13 @@
         margin-left: 27%;
         position: absolute;
     }
-}
-@media screen and (max-width: 414px) and (max-height: 736px) {
+} */
+@media screen and (max-width: 414px)  {
     .divRedes {
-        margin-top: -115%;
+        margin-top: -110%;
     }
     #foto {
-        margin-top: 50px;
+        /* margin-top: 50px; */
         width: 200px;
         margin-left: 28%;
         position: absolute;
@@ -551,14 +558,15 @@
     .meu-nome {
         margin-left: 32%;
         margin-top: 330px;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         font-size: 34px;
     }
 
     .mensagem {
-        margin-top: 370px;
+        /* margin-top: 370px; */
         margin-left: 16%;
         font-size: 34px;
+        padding-bottom: 20px;
     }
 }
 @media screen and (max-width: 390px) {
@@ -587,12 +595,12 @@
     .meu-nome {
         margin-left: 32%;
         margin-top: 70%;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         font-size: 34px;
     }
 
     .mensagem {
-        margin-top: 80%;
+        /* margin-top: 80%; */
         margin-left: 13%;
         font-size: 34px;
     }
@@ -609,7 +617,6 @@
         margin-left: 38%;
     }
     #foto {
-        margin-top: 0px;
         width: 180px;
         margin-left: 28%;
         position: absolute;
@@ -617,16 +624,20 @@
     .meu-nome {
         margin-left: 32%;
         margin-top: 280px;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         font-size: 30px;
     }
     .mensagem {
-        margin-top: 310px;
+        /* margin-top: 310px; */
         margin-left: 15%;
         font-size: 30px;
     }
+    .topo{
+        position: relative;
+        padding-bottom: 15%;
+    }
     .sobremim{
-        padding-top: 10px; 
+        padding-top: 30%;
     }
     #title1 {
         margin-left: 30%;
@@ -673,12 +684,20 @@
         margin-left: 22%;
     }
 }
-@media screen and (max-width: 375px) and (max-height: 812px){
+ @media screen and (max-width: 375px) and (max-height: 812px){
     .divRedes{
         margin-top: -128%;
         padding-bottom: 70%;
     }
-}
+    .topo{
+        position: relative;
+        padding-bottom: 10%;
+    }
+    .sobremim{
+        padding-top: 20%;
+        position: relative;
+    }
+} 
 @media screen and (max-width: 360px) {
     .divRedes{
         margin-top: -130%;
@@ -696,17 +715,17 @@
     .meu-nome {
         margin-left: 32%;
         margin-top: 65%;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         font-size: 30px;
     }
     .mensagem {
-        margin-top: 75%;
+        /* margin-top: 75%; */
         margin-left: 15%;
         font-size: 30px;
     }
-    .sobremim{
+    /* .sobremim{
         padding-top: 10px; 
-    }
+    } */
     #title1 {
         margin-left: 30%;
         font-size: 33px;
@@ -757,9 +776,8 @@
         background-image: url(../assets/bg.png);
     }
     .divRedes{
-        margin-top: -160%;
-        position: relative;
-        padding-bottom: 30%;
+        margin-top: -150%;
+        padding-bottom: 20%;
         /* display: none; */
     }
     .linkedin {
@@ -774,16 +792,20 @@
     .meu-nome {
         margin-left: 30%;
         margin-top: 55%;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         font-size: 30px;
     }
     .mensagem {
-        margin-top: 65%;
+        /* margin-top: 65%; */
         margin-left: 10%;
         font-size: 29px;
     }
+    .topo{
+        position: relative;
+        padding-bottom: 10%;
+    }
     .sobremim{
-        padding-top: 10px; 
+        padding-top: 20%;
     }
     #title1 {
         margin-left: 26%;
