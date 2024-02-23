@@ -1,70 +1,94 @@
-@media screen and (max-width: 1310px){
-    .linkcard{
+@media screen and (max-width: 1310px) {
+    .linkcard {
         margin-left: 40%;
     }
 }
-@media screen and (max-width: 1270px){
-    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+
+@media screen and (max-width: 1270px) {
+
+    #cardProjeto1,
+    #cardProjeto2,
+    #cardProjeto3 {
         height: 200px;
     }
 }
-@media screen and (max-width: 1215px){
-    .linkcard{
+
+@media screen and (max-width: 1215px) {
+    .linkcard {
         margin-left: 35%;
     }
+
     /* .sobremim {
         margin-top: 50px;
     } */
 }
-@media screen and (max-width: 1134px){
-    .linkcard{
+
+@media screen and (max-width: 1134px) {
+    .linkcard {
         margin-left: 30%;
     }
 }
-@media screen and (max-width: 1119px){
+
+@media screen and (max-width: 1119px) {
 
     /* .sobremim {
         margin-top: 60px;
     } */
-    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+    #cardProjeto1,
+    #cardProjeto2,
+    #cardProjeto3 {
         height: 228px;
     }
-    .linkcard{
+
+    .linkcard {
         margin-left: 30%;
     }
 }
-@media screen and (max-width: 992px){
-    #nav{
+
+@media screen and (max-width: 992px) {
+    #nav {
         display: inline;
     }
-    .linkcard{
+
+    .linkcard {
         margin-left: 15%;
     }
-    #foto{
+
+    #foto {
         width: 250px;
     }
 }
-@media screen and (max-width: 911px){
-    .linkcard{
+
+@media screen and (max-width: 911px) {
+    .linkcard {
         margin-left: 8%;
     }
 }
-@media screen and (max-width: 888px){
+
+@media screen and (max-width: 888px) {
+
     /* #title1 {
         margin-left: 37%;
         font-size: 40px;
         margin-bottom: 2%;
     } */
-    #cardProjeto1, #cardProjeto2, #cardProjeto3 {
+    #cardProjeto1,
+    #cardProjeto2,
+    #cardProjeto3 {
         height: 80%;
     }
-    #foto{
+
+    #foto {
         width: 210px;
     }
-    #cardProjeto4, #cardProjeto5, #cardProjeto6 {
+
+    #cardProjeto4,
+    #cardProjeto5,
+    #cardProjeto6 {
         height: 200px;
     }
 }
+
 @media screen and (max-width: 700px) {
 
     /* Header */
@@ -88,9 +112,11 @@
         margin-left: 30%;
         font-size: 32px;
     }
-    #imgSobreMim{
+
+    #imgSobreMim {
         display: none;
     }
+
     #foto {
         margin-top: -20px;
         width: 220px;
@@ -136,9 +162,11 @@
         margin-top: 5%;
         font-size: 20px;
     }
+
     .habilidades {
         margin-top: -100px;
     }
+
     #title2 {
         position: relative;
         margin-left: 37%;
@@ -215,6 +243,7 @@
         margin-bottom: 2%;
         position: absolute;
     }
+
     #cardProjeto2 {
         width: 70%;
         height: 190px;
@@ -223,38 +252,45 @@
         margin-bottom: 2%;
         position: absolute;
     }
+
     #cardProjeto3 {
         width: 70%;
         height: 190px;
         margin-left: 17%;
         margin-top: 450px;
         margin-bottom: 2%;
-        
+
     }
+
     #cardProjeto4 {
         width: 70%;
         height: 150px;
         margin-left: 17%;
         margin-top: 5px;
         margin-bottom: 2%;
-        
+
     }
+
     #cardProjeto5 {
         display: none;
-        
+
     }
+
     #cardProjeto6 {
         display: none;
-        
+
     }
-    .linkcard{
+
+    .linkcard {
         margin-left: 0;
     }
+
     #txtfooter {
         font-size: 13pt;
         margin-left: 35%;
     }
 }
+
 @media screen and (max-width: 530px) {
 
     /* Header */
@@ -317,7 +353,7 @@
 
     #title1 {
         position: relative;
-        margin:auto;
+        margin: auto;
         font-size: 35px;
         margin-bottom: 2%;
     }
@@ -329,9 +365,11 @@
         margin-top: 5%;
         font-size: 18px;
     }
-    .habilidades{
+
+    .habilidades {
         margin-top: -100px;
     }
+
     #title2 {
         position: relative;
         margin-left: 35%;
@@ -393,9 +431,11 @@
     #card8 {
         display: none;
     }
-    .projetos{
+
+    .projetos {
         margin-top: 40px;
     }
+
     #title3 {
         position: relative;
         margin-left: 42%;
@@ -411,6 +451,7 @@
         padding-bottom: 10px;
         position: absolute;
     }
+
     #cardProjeto2 {
         width: 70%;
         height: 190px;
@@ -419,85 +460,100 @@
         margin-bottom: 2%;
         position: absolute;
     }
+
     #cardProjeto3 {
         width: 70%;
         height: 190px;
         margin-left: 17%;
         margin-top: 460px;
         margin-bottom: 2%;
-        
+
     }
+
     #cardProjeto4 {
         width: 70%;
         height: 150px;
         margin-left: 17%;
         margin-top: 5%;
         margin-bottom: 2%;
-        
+
     }
+
     #cardProjeto5 {
         display: none;
-        
+
     }
+
     #cardProjeto6 {
         display: none;
-        
+
     }
+
     #txtfooter {
         font-size: 13pt;
         margin-left: 28%;
     }
 }
+
 @media screen and (max-width: 430px) {
-    
+
     #foto {
         width: 200px;
-        margin-left: 28%; 
+        margin-left: 28%;
         position: absolute;
     }
+
     .meu-nome {
-        margin:auto;
+        margin: auto;
         margin-top: 70%;
         margin-bottom: 0px;
         font-size: 34px;
     }
 
     .mensagem {
-        margin:auto;
+        margin: auto;
         font-size: 34px;
         position: relative;
     }
-    .divRedes{
+
+    .divRedes {
         margin-top: -105%;
-        padding-bottom: 68%;
+        padding-bottom: 45%;
         position: relative;
     }
+
     .linkedin {
         margin-left: 38%;
     }
-    .topo{
+
+    .topo {
         position: relative;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
-    .sobremim{
-        padding-top: 20%;
+
+    .sobremim {
+        /* padding-top: 10%; */
     }
+
     #title1 {
         margin-left: 31%;
         font-size: 35px;
         margin-bottom: 10px;
     }
+
     #title2 {
         margin-left: 31%;
         font-size: 35px;
         margin-bottom: 10px;
-        
+
     }
+
     #title3 {
         margin-left: 37%;
         font-size: 35px;
         margin-bottom: 10px;
     }
+
     #icons {
         font-size: 50px;
         margin: auto;
@@ -505,8 +561,8 @@
 
     #card1 {
         width: 19%;
-        margin-left: 20%;
-        
+        margin-left: 19%;
+
     }
 
     #card2 {
@@ -519,7 +575,7 @@
 
     #card5 {
         width: 19%;
-        margin-left: 20%;
+        margin-left: 19%;
     }
 
     #card6 {
@@ -529,128 +585,167 @@
     #card7 {
         width: 19%;
     }
+
     #txtfooter {
         margin-left: 26%;
     }
 }
- /* @media screen and (max-width: 414px)and (max-height: 736px) {
+
+@media screen and (max-width: 414px)and (max-height: 896px) {
     .divRedes{
         margin-top: -110%;
         padding-bottom: 80%;
     }
     #foto {
-        margin-top: -1%;
+        margin-top: 3%;
         width: 200px;
         margin-left: 27%;
         position: absolute;
     }
-} */
-@media screen and (max-width: 414px)  {
+} 
+@media screen and (max-width: 414px) {
     .divRedes {
         margin-top: -110%;
     }
+
     #foto {
-        /* margin-top: 50px; */
         width: 200px;
         margin-left: 28%;
         position: absolute;
     }
+
     .meu-nome {
         margin-left: 32%;
         margin-top: 330px;
-        /* margin-bottom: 90px; */
         font-size: 34px;
+    }
+    .sobremim {
+        padding-top: 8%;
+    }
+    .mensagem {
+        margin-left: 14%;
+        font-size: 34px;
+    }
+    #title1 {
+        margin-left: 31%;
     }
 
-    .mensagem {
-        /* margin-top: 370px; */
-        margin-left: 16%;
-        font-size: 34px;
-        padding-bottom: 20px;
+    #title2 {
+        margin-left: 30%;
+    }
+
+    #title3 {
+        margin-left: 37%;
     }
 }
+
 @media screen and (max-width: 390px) {
-    .divRedes{
-        margin-top: -120%;
-        padding-bottom: 70%;
+    .divRedes {
+        margin-top: -116%;
+        padding-bottom: 50%;
     }
+
     .insta {
         width: 30px;
     }
-    
+
     .linkedin {
         width: 30px;
         margin-left: 40%;
     }
-    
+
     .git {
         width: 30px;
     }
+
     #foto {
         margin-top: 2%;
         width: 200px;
         margin-left: 27%;
         position: absolute;
     }
+
     .meu-nome {
         margin-left: 32%;
         margin-top: 70%;
-        /* margin-bottom: 90px; */
-        font-size: 34px;
+        font-size: 33px;
     }
 
     .mensagem {
-        /* margin-top: 80%; */
         margin-left: 13%;
-        font-size: 34px;
+        font-size: 33px;
     }
+    #title1 {
+        margin-left: 32%;
+        font-size: 33px;
+    }
+
+    #title2 {
+        margin-left: 30%;
+        font-size: 33px;
+    }
+
+    #title3 {
+        margin-left: 37%;
+        font-size: 33px;
+    }
+
     #txtfooter {
-        margin-left: 22%;
+        margin-left: 24%;
     }
 }
+
 @media screen and (max-width: 375px) {
-    .divRedes{
+    .divRedes {
         margin-top: -128%;
         padding-bottom: 15%;
     }
+
     .linkedin {
         margin-left: 38%;
     }
+
     #foto {
         width: 180px;
         margin-left: 28%;
         position: absolute;
     }
+
     .meu-nome {
         margin-left: 32%;
         margin-top: 280px;
-        /* margin-bottom: 90px; */
         font-size: 30px;
     }
+
     .mensagem {
-        /* margin-top: 310px; */
         margin-left: 15%;
         font-size: 30px;
     }
-    .topo{
+
+    .topo {
         position: relative;
         padding-bottom: 15%;
     }
-    .sobremim{
-        padding-top: 30%;
+
+    .sobremim {
+        padding-top: 10%;
     }
+
     #title1 {
         margin-left: 30%;
         font-size: 33px;
     }
+
     #title2 {
         margin-left: 30%;
         font-size: 33px;
     }
+
     #title3 {
         margin-left: 37%;
         font-size: 33px;
     }
+
     #icons {
         font-size: 48px;
     }
@@ -680,65 +775,71 @@
     #card7 {
         width: 20%;
     }
+
     #txtfooter {
         margin-left: 22%;
     }
 }
- @media screen and (max-width: 375px) and (max-height: 812px){
-    .divRedes{
-        margin-top: -128%;
-        padding-bottom: 70%;
+
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    .divRedes {
+        margin-top: -118%;
+        padding-bottom: 40%;
     }
-    .topo{
-        position: relative;
-        padding-bottom: 10%;
-    }
-    .sobremim{
-        padding-top: 20%;
+
+    .topo {
         position: relative;
     }
-} 
+
+    .sobremim {
+        padding-top: 5%;
+        position: relative;
+    }
+}
 
 @media screen and (max-width: 360px) {
-    .divRedes{
-        margin-top: -130%;
+    .divRedes {
+        margin-top: -127%;
         padding-bottom: 60%;
     }
+
     .linkedin {
-        margin-left: 35%;
+        margin-left: 38%;
     }
+
     #foto {
         margin-top: -10%;
         width: 180px;
         margin-left: 28%;
         position: absolute;
     }
+
     .meu-nome {
         margin-left: 32%;
         margin-top: 65%;
-        /* margin-bottom: 90px; */
         font-size: 30px;
     }
+
     .mensagem {
-        /* margin-top: 75%; */
-        margin-left: 15%;
+        margin-left: 14%;
         font-size: 30px;
     }
-    /* .sobremim{
-        padding-top: 10px; 
-    } */
+    
     #title1 {
         margin-left: 30%;
         font-size: 33px;
     }
+
     #title2 {
         margin-left: 28%;
         font-size: 33px;
     }
+
     #title3 {
         margin-left: 37%;
         font-size: 33px;
     }
+
     #icons {
         font-size: 48px;
     }
@@ -768,59 +869,60 @@
     #card7 {
         width: 22%;
     }
+
     #txtfooter {
         margin-left: 20%;
     }
 }
- @media screen and (max-width: 320px)  {/* and (max-height: 568px)*/
-    .topo{
-        background-image: url(../assets/bg.png);
+
+@media screen and (max-width: 320px) {
+    .divRedes {
+        margin-top: -145%;
+        padding-bottom: 32%;
     }
-    .divRedes{
-        margin-top: -150%;
-        /* padding-bottom: 20%; */
-    }
+
     .linkedin {
         margin-left: 35%;
     }
+
     #foto {
-        margin-top: -12%;
+        margin-top: -15%;
         width: 170px;
         margin-left: 25%;
         position: absolute;
     }
+
     .meu-nome {
         margin-left: 30%;
         margin-top: 55%;
-        /* margin-bottom: 90px; */
         font-size: 30px;
     }
+
     .mensagem {
-        /* margin-top: 65%; */
         margin-left: 10%;
         font-size: 29px;
     }
+
     .topo{
-        position: relative;
-        padding-bottom: 10%;
-    }
-    .sobremim{
-         padding-top: 20%;
+        padding-bottom: 1%;
     }
     #title1 {
-        margin-left: 26%;
-        font-size: 33px;
+        margin-left: 28%;
+        font-size: 31px;
     }
+
     #title2 {
-        margin-left: 24%;
-        font-size: 33px;
+        margin-left: 26%;
+        font-size: 31px;
     }
+
     #title3 {
         margin-left: 33%;
-        font-size: 33px;
+        font-size: 31px;
     }
+
     #icons {
-        font-size: 45px;
+        font-size: 43px;
     }
 
     #card1 {
@@ -848,9 +950,9 @@
     #card7 {
         width: 24%;
     }
+
     #txtfooter {
         margin-left: 20%;
+        font-size: 12pt;
     }
 }
-
-
