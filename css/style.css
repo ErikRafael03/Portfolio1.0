@@ -66,14 +66,14 @@ nav {
     width: 35px;
     margin-left: 60px;
     margin-top: 470px;
-    position: absolute;
+    position: relative;
 }
 
 .git {
     width: 35px;
     margin-left: 3px;
     margin-top: 470px;
-    position: absolute;
+    position: relative;
 }
 .divRedes{
     padding-bottom: 2%;
