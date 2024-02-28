@@ -75,6 +75,10 @@ nav {
     margin-top: 470px;
     position: relative;
 }
+.divRedes{
+    padding-bottom: 2%;
+    position: relative;
+}
 
 .conteudo {
     display: flex;
