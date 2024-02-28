@@ -59,21 +59,21 @@ nav {
     width: 35px;
     margin-left: 3px;
     margin-top: 470px;
-    position: relative;
+    position: absolute;
 }
 
 .linkedin {
     width: 35px;
     margin-left: 60px;
     margin-top: 470px;
-    position: relative;
+    position: absolute;
 }
 
 .git {
     width: 35px;
     margin-left: 3px;
     margin-top: 470px;
-    position: relative;
+    position: absolute;
 }
 .divRedes{
     padding-bottom: 2%;
