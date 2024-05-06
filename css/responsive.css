@@ -17,10 +17,6 @@
     .linkcard {
         margin-left: 35%;
     }
-
-    /* .sobremim {
-        margin-top: 50px;
-    } */
 }
 
 @media screen and (max-width: 1134px) {
@@ -31,9 +27,6 @@
 
 @media screen and (max-width: 1119px) {
 
-    /* .sobremim {
-        margin-top: 60px;
-    } */
     #cardProjeto1,
     #cardProjeto2,
     #cardProjeto3 {
@@ -67,11 +60,6 @@
 
 @media screen and (max-width: 888px) {
 
-    /* #title1 {
-        margin-left: 37%;
-        font-size: 40px;
-        margin-bottom: 2%;
-    } */
     #cardProjeto1,
     #cardProjeto2,
     #cardProjeto3 {
@@ -90,29 +78,41 @@
 }
 
 @media screen and (max-width: 700px) {
-
-    /* Header */
-    #nav {
-        display: none;
-    }
-
     .topo {
         display: flex;
         flex-direction: column;
     }
 
+    .nav-desktop{
+        display: none;
+    }
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 37%;
         margin-bottom: 70px;
         font-size: 28pt;
+        margin-top: 330px;
     }
 
     .mensagem {
         margin-bottom: 70px;
         margin-left: 30%;
         font-size: 32px;
+        margin-top: 395px;
+
     }
 
+    @keyframes palavras {
+        0%, 50%{
+            content: "Software Developer";
+        }
+        51%, 100%{
+            content: "Front-end Developer";
+        }
+    }
+    
     #imgSobreMim {
         display: none;
     }
@@ -121,7 +121,8 @@
         margin-top: -20px;
         width: 220px;
         margin-left: 35%;
-        padding-top: 20px;
+        padding-top: 100px;
+        position: absolute;
     }
 
     .divRedes {
@@ -293,36 +294,32 @@
 
 @media screen and (max-width: 530px) {
 
-    /* Header */
-    #nav {
-        display: none;
-    }
-
     .topo {
         display: flex;
         flex-direction: column;
         background-image: url(../assets/bg.png);
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 35%;
-        margin-bottom: 90px;
         position: relative;
         font-size: 32px;
+        margin-top: 290px;
     }
 
     .mensagem {
-        margin-top: 300px;
+        margin-top: 430px;
         margin-left: 22%;
         font-size: 32px;
         position: absolute;
-        padding-bottom: 0%;
     }
 
     #foto {
         margin-top: -10px;
         width: 200px;
-        margin-left: 31%;
+        margin-left: 32%;
         position: absolute;
     }
 
@@ -335,14 +332,17 @@
     .linkedin {
         width: 35px;
         margin-left: 39%;
+        padding-bottom: 20px;
     }
 
     .git {
         width: 35px;
+        padding-bottom: 20px;
     }
 
     .insta {
         width: 35px;
+        padding-bottom: 20px;
     }
 
     .sobremim {
@@ -502,7 +502,13 @@
         margin-left: 28%;
         position: absolute;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+        z-index: 9999;
+    }
+    .overlay-menu{
+        z-index: 8888;
+    }
     .meu-nome {
         margin: auto;
         margin-top: 70%;
@@ -529,10 +535,6 @@
     .topo {
         position: relative;
         padding-bottom: 5%;
-    }
-
-    .sobremim {
-        /* padding-top: 10%; */
     }
 
     #title1 {
@@ -592,17 +594,19 @@
 }
 
 @media screen and (max-width: 414px)and (max-height: 896px) {
-    .divRedes{
+    .divRedes {
         margin-top: -110%;
         padding-bottom: 80%;
     }
+
     #foto {
         margin-top: 3%;
         width: 200px;
         margin-left: 27%;
         position: absolute;
     }
-} 
+}
+
 @media screen and (max-width: 414px) {
     .divRedes {
         margin-top: -110%;
@@ -614,19 +618,24 @@
         margin-left: 28%;
         position: absolute;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 32%;
         margin-top: 330px;
         font-size: 34px;
     }
+
     .sobremim {
         padding-top: 0;
     }
+
     .mensagem {
         margin-left: 14%;
         font-size: 34px;
     }
+
     #title1 {
         margin-left: 31%;
     }
@@ -645,7 +654,9 @@
         margin-top: -116%;
         padding-bottom: 50%;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .insta {
         width: 30px;
     }
@@ -676,6 +687,7 @@
         margin-left: 13%;
         font-size: 33px;
     }
+
     #title1 {
         margin-left: 31%;
         font-size: 33px;
@@ -711,7 +723,9 @@
         margin-left: 28%;
         position: absolute;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 32%;
         margin-top: 280px;
@@ -726,10 +740,6 @@
     .topo {
         position: relative;
         padding-bottom: 15%;
-    }
-
-    .sobremim {
-        padding-top: 0%;
     }
 
     #title1 {
@@ -809,12 +819,14 @@
     }
 
     #foto {
-        margin-top: -10%;
+        margin-top: 2%;
         width: 180px;
         margin-left: 28%;
         position: absolute;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 32%;
         margin-top: 65%;
@@ -825,7 +837,7 @@
         margin-left: 14%;
         font-size: 30px;
     }
-    
+
     #title1 {
         margin-left: 29%;
         font-size: 33px;
@@ -892,7 +904,9 @@
         margin-left: 25%;
         position: absolute;
     }
-
+    .btn-abrir-menu, .nav-mobile{
+        display: block;
+    }
     .meu-nome {
         margin-left: 30%;
         margin-top: 55%;
@@ -904,9 +918,10 @@
         font-size: 29px;
     }
 
-    .topo{
+    .topo {
         padding-bottom: 1%;
     }
+
     #title1 {
         margin-left: 28%;
         font-size: 31px;
