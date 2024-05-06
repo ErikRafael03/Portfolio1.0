@@ -8,37 +8,64 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
   <link rel="shortcut icon" href="assets/Icon/icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="./js/script.js" defer></script>
   <title>Portfólio | Erik Rafael</title>
 </head>
 
 <body class="body">
-  <!-- <img src="assets/bg.png" alt="Background" class="bg"> -->
-  <div>
-    <nav class="navbar navbar-expand-lg " id="Nav">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav" id="NavLink">
-          <a class="nav-link active" id="Link" aria-current="page" href="Index.html">Home</a>
-          <a class="nav-link active" id="Link" href="#sobremim">Sobre Mim</a>
-          <a class="nav-link active" id="Link" href="#habilidades">Habilidades</a>
-          <a class="nav-link active" id="Link" href="#projetos">Projetos</a>
-        </div>
-      </div>
-    </nav>
-  </div>
+
   <div class="topo">
-  <span style="display: inline" class="meu-nome">Erik Rafael</span>
-  <span style="display: inline" class="mensagem">Software Developer</span>
-  <!-- <a href="./files/Erik_Currículo.pdf"><button type="button" class="btn btn-success" id="btnBaixarCV">Visualizar CV</button></a> -->
-  <img src="assets/f2.png" alt="Foto de perfil" id="foto">
-  
-  <div class="divRedes">
-    <a href="https://www.linkedin.com/in/erik-rafael/"><img src="assets/linkedin.png" alt="linkedin" class="linkedin"></a>
-    <a href="https://github.com/ErikRafael03"><img src="assets/git.png" alt="GitHub" class="git"></a>
-    <a href="https://www.instagram.com/erikr.__/"><img src="assets/insta.png" alt="Instagram" class="insta"></a>
-  </div>
-  
+    <div class="nav-desktop">
+      <nav>
+        <a href="#sobremim">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="./files/Erik_Currículo.pdf">Visualizar CV</a>
+      </nav>
+    </div>
+
+    <div class="btn-abrir-menu" id="btn-menu">
+      <i class="bi bi-list"></i>
+    </div>
+    <!-- Arrumar o bug na responsividade!!!!
+     O menu está pronto, mas a responsividade está errada-->
+    <div class="nav-mobile" id="nav-mobile">
+      <div class="btn-fechar">
+        <i class="bi bi-x-lg"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobremim">Sobre Mim</a></li>
+          <br>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <br>
+          <li><a href="#projetos">Projetos</a></li>
+          <br>
+          <li><a href="./files/Erik_Currículo.pdf">Visualizar CV</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="overlay-menu" id="overlay-menu">
+
+    </div>
+
+    <span style="display: inline" class="meu-nome">Erik Rafael</span>
+    <span style="display: inline" class="mensagem"></span>
+    <img src="assets/f2.png" alt="Foto de perfil" id="foto">
+
+    <div class="divRedes">
+      <a href="https://www.linkedin.com/in/erik-rafael/"><img src="assets/linkedin.png" alt="linkedin"
+          class="linkedin"></a>
+      <a href="https://github.com/ErikRafael03"><img src="assets/git.png" alt="GitHub" class="git"></a>
+      <a href="https://www.instagram.com/erikr.__/"><img src="assets/insta.png" alt="Instagram" class="insta"></a>
+    </div>
+    <!-- <a href="./files/Erik_Currículo.pdf" id="btnBaixarCV">Visualizar CV</a> -->
+
   </div>
   <div class="conteudo">
     <div class="sobremim">
@@ -46,72 +73,72 @@
       <img src="assets/IMGsobremim.png" alt="Foto de perfil" id="imgSobreMim">
       <div id="txtsobremim">
         <p>Meu nome é Erik Rafael e tenho 21 anos. Sou um entusiasta da tecnologia que decidiu
-           seguir o caminho da programação. Um aprendiz incansável, sempre disposto a
-           contribuir com meus conhecimentos.</p>
+          seguir o caminho da programação. Um aprendiz incansável, sempre disposto a
+          contribuir com meus conhecimentos.</p>
         <br>
-        <p>Recentemente, concluí minha graduação em Análise e Desenvolvimento de Sistemas 
-           (ADS) pela Universidade Mauricio de Nassau. Além disso, estou buscando uma 
-           especialização em C# e Node.js, uma vez que tenho interesse em programação 
-           front-end, mas pretendo migrar para o desenvolvimento back-end no futuro.</p>
+        <p>Recentemente, concluí minha graduação em Análise e Desenvolvimento de Sistemas
+          (ADS) pela Universidade Mauricio de Nassau. Além disso, estou buscando uma
+          especialização em C# e Node.js, uma vez que tenho interesse em programação
+          front-end, mas pretendo migrar para o desenvolvimento back-end no futuro.</p>
       </div>
     </div>
     <a href="" name="habilidades"></a>
     <div class="habilidades">
       <span id="title2">Habilidades</span>
       <div class="cardsHab1">
-      <div class="imghabi1">
-        <div class="card" id="card1">
-          <div class="card-body">
-            <i class="devicon-html5-plain" id="icons"></i>
+        <div class="imghabi1">
+          <div class="card" id="card1">
+            <div class="card-body">
+              <i class="devicon-html5-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card2">
-          <div class="card-body">
-            <i class="devicon-css3-plain" id="icons"></i>
+          <div class="card" id="card2">
+            <div class="card-body">
+              <i class="devicon-css3-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card3">
-          <div class="card-body">
-            <i class="devicon-javascript-plain" id="icons"></i>
+          <div class="card" id="card3">
+            <div class="card-body">
+              <i class="devicon-javascript-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card4">
-          <div class="card-body">
-            <i class="devicon-bootstrap-plain" id="icons"></i>
+          <div class="card" id="card4">
+            <div class="card-body">
+              <i class="devicon-bootstrap-plain" id="icons"></i>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="cardsHab2">
-      <div class="imghabi2">
-        <div class="card" id="card5">
-          <div class="card-body">
-            <i class="devicon-dotnetcore-plain" id="icons"></i>
+      <div class="cardsHab2">
+        <div class="imghabi2">
+          <div class="card" id="card5">
+            <div class="card-body">
+              <i class="devicon-dotnetcore-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card6">
-          <div class="card-body">
-            <i class="devicon-csharp-plain" id="icons"></i>
+          <div class="card" id="card6">
+            <div class="card-body">
+              <i class="devicon-csharp-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card7">
-          <div class="card-body">
-            <i class="devicon-nodejs-plain" id="icons"></i>
+          <div class="card" id="card7">
+            <div class="card-body">
+              <i class="devicon-nodejs-plain" id="icons"></i>
+            </div>
           </div>
-        </div>
 
-        <div class="card" id="card8">
-          <div class="card-body">
-            <i class="devicon-react-original" id="icons"></i>
+          <div class="card" id="card8">
+            <div class="card-body">
+              <i class="devicon-react-original" id="icons"></i>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
     <a href="" name="projetos"></a>
     <div class="projetos">
@@ -170,11 +197,10 @@
         </div>
       </div> -->
     </div>
-
-
     <footer class="footer">
       <br>
-      <span id="txtfooter">Copyright © 2024 <a href="https://www.linkedin.com/in/erik-rafael/" class="linkfooter">Erik Rafael</a></span>
+      <span id="txtfooter">Copyright © 2024 <a href="https://www.linkedin.com/in/erik-rafael/" class="linkfooter">Erik
+          Rafael</a></span>
     </footer>
 
 
