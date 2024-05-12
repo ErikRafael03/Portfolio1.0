@@ -1,4 +1,9 @@
 /*#00BF3D Cor para o Site, sujeita a mudança*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #161616;
@@ -8,11 +13,13 @@
     background-color: #00BF3D;
     border-radius: 10px;
 }
-
 body {
-    background-color: #111111;
+    background-color: #0c0c0c;
 }
-
+section{
+    display: grid;
+    min-height: 100vh;
+}
 /* MENU DESKTOP */
 .nav-desktop nav {
     background-color: #000000;
@@ -151,7 +158,7 @@ body {
 .mensagem::before {
     content: "";
     color: #00BF3D;
-    animation: palavras 25s infinite;
+    animation: palavras 27s infinite;
 }
 
 .mensagem::after {
@@ -160,7 +167,7 @@ body {
     height: 100%;
     border-left: 2px solid #00BF3D;
     right: -10px;
-    animation: cursor .8s infinite, digita 25s steps(15) infinite;
+    animation: cursor .8s infinite, digita 30s steps(15) infinite;
     width: calc(100% + 15px);
     background-color: black;
 
@@ -254,14 +261,10 @@ body {
 }
 
 .divRedes {
-    padding-bottom: 2%;
+    /* padding-bottom: 2%; */
     position: relative;
 }
 
-/* .conteudo {
-    display: flex;
-    flex-direction: column;
-} */
 .topo {
     position: relative;
     padding-bottom: 5%;
@@ -274,6 +277,8 @@ body {
 .sobremim {
     position: relative;
     padding-top: 5%;
+    align-content: center;
+    text-align: center;
 }
 
 #title1 {
@@ -281,11 +286,16 @@ body {
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 41%;
+    /* margin-left: 41%; */
     margin-top: 95px;
 
 }
-
+.ponto{
+    font-size: 50px;
+    color: #00BF3D;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #foto {
     width: 300px;
     margin-left: 72%;
@@ -303,7 +313,6 @@ body {
 
 #txtsobremim {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin-left: 40%;
     margin-right: 5%;
@@ -312,15 +321,20 @@ body {
     font-size: 18px;
     margin-bottom: 180px;
     text-align: justify;
-    font-weight: 200;
+    font-weight: 300;
 }
+.habilidades{
+    align-items: center;
+    align-content: center;
+    text-align: center;
 
+}
 #title2 {
     font-size: 50px;
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 41%;
+    /* margin-left: 41%; */
     margin-top: 10%;
 
 }
@@ -329,12 +343,14 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
+    padding: 0;
 }
 
 .imghabi2 {
     display: flex;
     flex-direction: row;
     position: relative;
+    padding: 0;
 }
 
 #icons {
@@ -343,79 +359,147 @@ body {
 }
 
 #card1 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
-    margin-left: 32%;
+    margin-left: 25%;
     margin-top: 4%;
+    transition: 1.3s;
+    border-radius: 5px;
+   align-content: center;
+}
+#card1:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card2 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 4%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card2:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card3 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 4%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card3:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card4 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 4%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card4:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card5 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
-    margin-left: 32%;
+    margin-left: 25%;
     margin-top: 2%;
     margin-bottom: 10%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card5:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card6 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card6:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card7 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card7:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
 #card8 {
-    width: 100px;
-    background-color: #1d1d1d;
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
     position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+}
+#card8:hover{
+    border-color: #00BF3D;
+    transition: 1s;
 }
 
+.projetos{
+    align-content: center;
+    text-align: center;
+}
 #title3 {
     font-size: 50px;
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 43%;
+    /* margin-left: 43%; */
     margin-top: 10px;
 
 }
@@ -423,6 +507,7 @@ body {
 .meusprojetos {
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 
 #subtitle {
@@ -435,19 +520,17 @@ body {
 #cardProjeto1 {
     width: 20%;
     height: 190px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 17%;
     margin-top: 5%;
     margin-bottom: 2%;
-    border: 1px;
-    border-color: #00BF3D;
 }
 
 #cardProjeto2 {
     width: 20%;
     height: 190px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 3%;
     margin-top: 5%;
@@ -457,7 +540,7 @@ body {
 #cardProjeto3 {
     width: 20%;
     height: 190px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 3%;
     margin-top: 5%;
@@ -467,7 +550,7 @@ body {
 #cardProjeto4 {
     width: 20%;
     height: 150px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 17%;
     margin-bottom: 2%;
@@ -476,7 +559,7 @@ body {
 #cardProjeto5 {
     width: 20%;
     height: 150px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 3%;
     margin-bottom: 2%;
@@ -485,7 +568,7 @@ body {
 #cardProjeto6 {
     width: 20%;
     height: 150px;
-    background-color: #1d1d1d;
+    background-color: #131313;
     position: relative;
     margin-left: 3%;
     margin-bottom: 2%;
@@ -507,12 +590,18 @@ footer {
     background-color: #000000;
     margin-top: 8%;
     height: 60px;
-}
+    text-align: center;
+    align-items: center;
 
+}
+/* .footer{
+    text-align: center;
+    align-items: center;
+} */
 #txtfooter {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
-    margin-left: 42%;
+    /* margin-left: 42%; */
     margin-top: 10px;
     color: #302f2f;
 }
