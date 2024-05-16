@@ -201,6 +201,7 @@
         height: 130px;
         margin-left: 9%;
         margin-top: 4%;
+        line-height: 40%;
     }
 
     #card2, #card6{
@@ -208,6 +209,7 @@
         height: 130px;
         margin-left: 3%;
         margin-top: 4%;
+        line-height: 40%;
     }
 
     #card3, #card7{
@@ -215,6 +217,7 @@
         height: 130px;
         margin-left: -83%;
         margin-top: 26%;
+        line-height: 40%;
     }
 
     #card4, #card8{
@@ -222,6 +225,7 @@
         height: 130px;
         margin-left: 3%;
         margin-top: 26%;
+        line-height: 40%;
     }
 
     /* #card5 {
