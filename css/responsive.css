@@ -194,8 +194,8 @@
 
     #icons {
         font-size: 65px;
-        margin: auto;
-        line-height: -40%;
+        margin-top: 10%;/* novo */
+        line-height: -40%;/* novo */
     }
 
     #card1, #card5 {
@@ -204,6 +204,7 @@
         margin-left: 9%;
         margin-top: 4%;
         text-align: center;
+        line-height: -40%; /* novo */
     }
 
     #card2, #card6{
@@ -212,6 +213,7 @@
         margin-left: 3%;
         margin-top: 4%;
         text-align: center;
+        line-height: -40%; /* novo */
     }
 
     #card3, #card7{
@@ -220,6 +222,7 @@
         margin-left: -83%;
         margin-top: 26%;
         text-align: center;
+        line-height: -40%; /* novo */
     }
 
     #card4, #card8{
@@ -228,6 +231,8 @@
         margin-left: 3%;
         margin-top: 26%;
         text-align: center;
+        line-height: -40%; /* novo */
+        
     }
 
     /* #card5 {
