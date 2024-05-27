@@ -195,6 +195,7 @@
     #icons {
         font-size: 65px;
         margin: auto;
+        line-height: -40%;
     }
 
     #card1, #card5 {
