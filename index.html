@@ -58,7 +58,8 @@
       <img src="assets/f2.png" alt="Foto de perfil" id="foto">
 
       <div class="divRedes">
-        <a href="https://www.linkedin.com/in/erik-rafael/"><img src="assets/linkedin.png" alt="linkedin" class="linkedin"></a>
+        <a href="https://www.linkedin.com/in/erik-rafael/"><img src="assets/linkedin.png" alt="linkedin"
+            class="linkedin"></a>
         <a href="https://github.com/ErikRafael03"><img src="assets/git.png" alt="GitHub" class="git"></a>
         <a href="https://www.instagram.com/erikr.__/"><img src="assets/insta.png" alt="Instagram" class="insta"></a>
       </div>
@@ -70,22 +71,22 @@
   <!-- INICIO SECTION 2 -->
   <section class="hidden">
     <a href="" name="sobremim" style="position: absolute;"></a>
-      <div class="sobremim">
+    <div class="sobremim">
 
-        <span id="title1">Sobre Mim</span><span class="ponto"> .</span>
-        <img src="assets/IMGsobremim.png" alt="Foto de perfil" id="imgSobreMim">
+      <span id="title1">Sobre Mim</span><span class="ponto"> .</span>
+      <img src="assets/IMGsobremim.png" alt="Foto de perfil" id="imgSobreMim">
 
-        
-        <div id="txtsobremim">
-          <p>Meu nome é Erik Rafael e tenho 21 anos. Sou um entusiasta da tecnologia que decidiu
-            seguir o caminho da programação. Um aprendiz incansável, sempre disposto a
-            contribuir com meus conhecimentos.</p>
-          <p>Recentemente, concluí minha graduação em Análise e Desenvolvimento de Sistemas
-            (ADS) pela Universidade Mauricio de Nassau. Além disso, estou buscando uma
-            especialização em C# e Node.js, uma vez que tenho interesse em programação
-            front-end, mas pretendo migrar para o desenvolvimento back-end no futuro.</p>
-        </div>
+
+      <div id="txtsobremim">
+        <p>Meu nome é Erik Rafael e tenho 21 anos. Sou um entusiasta da tecnologia que decidiu
+          seguir o caminho da programação. Um aprendiz incansável, sempre disposto a
+          contribuir com meus conhecimentos.</p>
+        <p>Recentemente, concluí minha graduação em Análise e Desenvolvimento de Sistemas
+          (ADS) pela Universidade Mauricio de Nassau. Além disso, estou buscando uma
+          especialização em C# e Node.js, uma vez que tenho interesse em programação
+          front-end, mas pretendo migrar para o desenvolvimento back-end no futuro.</p>
       </div>
+    </div>
   </section>
   <!-- FIM SECTION 2 -->
 
@@ -94,96 +95,131 @@
     <a href="" name="habilidades" style="position: absolute;"></a>
     <div class="habilidades">
       <span id="title2">Habilidades</span><span class="ponto"> .</span>
+
       <!-- <div class="cardsHab1"> -->
-        <div class="imghabi1">
-          <div id="card1">
-            <div>
-              <i class="devicon-html5-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card2">
-            <div>
-              <i class="devicon-css3-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card3">
-            <div>
-              <i class="devicon-javascript-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card4">
-            <div>
-              <i class="devicon-bootstrap-plain" id="icons"></i>
-            </div>
+      <div class="imghabi1">
+        <div class="txts">
+          <p id="txtfixo">
+            *Passe o cursor do mouse no card para ler*
+          </p>
+          <p id="txt1">
+            HTML é a linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai
+            exibir.
+          </p>
+          <p id="txt2">
+            CSS é uma linguagem de folha de estilo composta por "camadas", criada com o propósito de estilizar as
+            páginas.
+          </p>
+          <p id="txt3">
+            JavaScript é uma linguagem de programação que permite a voçê implementar elementos dinâmicos em páginas web.
+          </p>
+          <p id="txt4">
+            Bootstrap é um framework front-end que facilita a criação de sites e aplicações web, oferecendo componentes
+            componentes CSS e JavaScript.
+          </p>
+          <p id="txt5">
+            .NET é uma plataforma de desenvolvimento que oferece um ambiente para o desenvolvimento e execução de
+            aplicações.
+          </p>
+          <p id="txt6">
+            C# é uma linguagem de programação moderna, orientada a objetos, e que faz parte do .NET
+          </p>
+          <p id="txt7">
+            Node.js é um ambiente de execução de JavaScript que permite executar código JavaScript fora de um navegador.
+          </p>
+          <p id="txt8">
+            React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componentizada.
+          </p>
+        </div>
+        <!-- onmouseout="mostrartxt1()" onmouseover="tirartxt1()" -->
+        <div id="card1" onmouseout="mostrartxt1()" onmouseover="tirartxt1()">
+          <div>
+            <i class="devicon-html5-plain" id="icons"></i>
           </div>
         </div>
+
+        <div id="card2" onmouseout="mostrartxt2()" onmouseover="tirartxt2()">
+          <div>
+            <i class="devicon-css3-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div id="card3" onmouseout="mostrartxt3()" onmouseover="tirartxt3()">
+          <div>
+            <i class="devicon-javascript-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div id="card4" onmouseout="mostrartxt4()" onmouseover="tirartxt4()">
+          <div>
+            <i class="devicon-bootstrap-plain" id="icons"></i>
+          </div>
+        </div>
+      </div>
       <!-- </div> -->
       <!-- <div class="cardsHab2"> -->
-        <div class="imghabi2">
-          <div id="card5">
-            <div>
-              <i class="devicon-dotnetcore-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card6">
-            <div>
-              <i class="devicon-csharp-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card7">
-            <div>
-              <i class="devicon-nodejs-plain" id="icons"></i>
-            </div>
-          </div>
-
-          <div id="card8">
-            <div>
-              <i class="devicon-react-original" id="icons"></i>
-            </div>
+      <div class="imghabi2">
+        <div id="card5" onmouseout="mostrartxt5()" onmouseover="tirartxt5()">
+          <div>
+            <i class="devicon-dotnetcore-plain" id="icons"></i>
           </div>
         </div>
+
+        <div id="card6" onmouseout="mostrartxt6()" onmouseover="tirartxt6()">
+          <div>
+            <i class="devicon-csharp-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div id="card7" onmouseout="mostrartxt7()" onmouseover="tirartxt7()">
+          <div>
+            <i class="devicon-nodejs-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div id="card8" onmouseout="mostrartxt8()" onmouseover="tirartxt8()">
+          <div>
+            <i class="devicon-react-original" id="icons"></i>
+          </div>
+        </div>
+      </div>
       <!-- </div> -->
     </div>
   </section>
   <!-- FIM SECTION 3 -->
-<section class="hidden">
-  <a href="" name="projetos" style="position: absolute;"></a>
-  <div class="projetos">
-    <span id="title3">Projetos</span><span class="ponto"> .</span>
-    <div class="meusprojetos">
-      <div class="card" id="cardProjeto1">
-        <div class="card-body">
-          <span id="subtitle">Em Breve...</span>
-          <div class="txtcard">
-            <p>Logo logo estarei postando novos projetos.</p>
+  <section class="hidden">
+    <a href="" name="projetos" style="position: absolute;"></a>
+    <div class="projetos">
+      <span id="title3">Projetos</span><span class="ponto"> .</span>
+      <div class="meusprojetos">
+        <div class="card" id="cardProjeto1">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card" id="cardProjeto2">
-        <div class="card-body">
-          <span id="subtitle">Em Breve...</span>
-          <div class="txtcard">
-            <p>Logo logo estarei postando novos projetos.</p>
+        <div class="card" id="cardProjeto2">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card" id="cardProjeto3">
-        <div class="card-body">
-          <span id="subtitle">Em Breve...</span>
-          <div class="txtcard">
-            <p>Logo logo estarei postando novos projetos.</p>
+        <div class="card" id="cardProjeto3">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
-    <!-- <div class="meusprojetos">
+  <!-- <div class="meusprojetos">
         <div class="card" id="cardProjeto4">
           <div class="card-body">
             <span id="subtitle">Em Breve...</span>
@@ -208,7 +244,7 @@
             </div>
           </div>
         </div>
-      </div>--> 
+      </div>-->
   </div>
   <footer class="footer">
     <br>

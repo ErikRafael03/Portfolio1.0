@@ -1,9 +1,10 @@
 /*#00BF3D Cor para o Site, sujeita a mudança*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #161616;
@@ -13,13 +14,16 @@
     background-color: #00BF3D;
     border-radius: 10px;
 }
+
 body {
     background-color: #0c0c0c;
 }
-section{
+
+section {
     display: grid;
     min-height: 100vh;
 }
+
 /* MENU DESKTOP */
 .nav-desktop nav {
     background-color: #000000;
@@ -62,9 +66,11 @@ section{
 
 /* MENU DESKTOP */
 
-.btn-abrir-menu, .overlay-menu{
+.btn-abrir-menu,
+.overlay-menu {
     display: none;
 }
+
 /* Menu MOBILE */
 .btn-abrir-menu {
     text-align: right;
@@ -288,14 +294,21 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     /* margin-left: 41%; */
     margin-top: 95px;
+    transition: 1s;
 
 }
-.ponto{
+
+/* #title1:hover {
+    font-size: 55px;
+    transition: 0.5;
+} */
+.ponto {
     font-size: 50px;
     color: #00BF3D;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #foto {
     width: 300px;
     margin-left: 72%;
@@ -315,7 +328,7 @@ section{
     color: white;
     position: relative;
     margin-left: 40%;
-    margin-right: 5%;
+    margin-right: 8%;
     margin-top: 80px;
     line-height: 23px;
     font-size: 18px;
@@ -323,34 +336,39 @@ section{
     text-align: justify;
     font-weight: 300;
 }
-.habilidades{
+
+.habilidades {
     align-items: center;
     align-content: center;
     text-align: center;
 
 }
+
 #title2 {
     font-size: 50px;
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     /* margin-left: 41%; */
-    margin-top: 10%;
-
+    margin-top: 1;
+    /* margin-bottom: 40%; */
 }
 
 .imghabi1 {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     position: relative;
     padding: 0;
+    margin-left: 42%;
+
 }
 
 .imghabi2 {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     position: relative;
     padding: 0;
+    margin-left: 42%;
 }
 
 #icons {
@@ -359,89 +377,134 @@ section{
 }
 
 #card1 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
-    margin-left: 25%;
-    margin-top: 4%;
+    margin-left: 28%;
+    margin-top: 8%;
     transition: 1.3s;
     border-radius: 5px;
-   align-content: center;
+    align-content: center;
+    border: solid 1px #131313;
 }
-#card1:hover{
+
+#card1:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
+.txts {
+    width: 50%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: -60%;
+}
+
+#txtfixo {
+    display: block;
+    padding: 5%;
+    /* border: solid 1px; */
+    width: 100%;
+    font-size: 12pt;
+    color: rgb(138, 131, 131);
+}
+
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5,
+#txt6,
+#txt7,
+#txt8 {
+    border: solid 1px;
+    display: none;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 12pt;
+    color: rgb(177, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CÓDIGO PARA PASSAR O MOUSE E MOSTRAR UM TEXTO */
 #card2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
-    margin-top: 4%;
-    transition: 1.3s;
+    margin-top: 8%;
     border-radius: 5px;
     align-content: center;
+    transition: 1.3s;
+    border: solid, 1px, #131313;
 }
-#card2:hover{
+
+#card2:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card3 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
-    margin-top: 4%;
+    margin-top: 8%;
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card3:hover{
+
+#card3:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card4 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
-    margin-top: 4%;
+    margin-top: 8%;
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card4:hover{
+
+#card4:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card5 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
-    margin-left: 25%;
+    margin-left: 28%;
     margin-top: 2%;
     margin-bottom: 10%;
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card5:hover{
+
+#card5:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card6 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
@@ -450,15 +513,17 @@ section{
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card6:hover{
+
+#card6:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card7 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
@@ -467,15 +532,17 @@ section{
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card7:hover{
+
+#card7:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
 #card8 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #131313;
     position: relative;
     margin-left: 2%;
@@ -484,16 +551,19 @@ section{
     transition: 1.3s;
     border-radius: 5px;
     align-content: center;
+    border: solid, 1px, #131313;
 }
-#card8:hover{
+
+#card8:hover {
     border-color: #00BF3D;
     transition: 1s;
 }
 
-.projetos{
+.projetos {
     align-content: center;
     text-align: center;
 }
+
 #title3 {
     font-size: 50px;
     color: white;
@@ -501,9 +571,14 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     /* margin-left: 43%; */
     margin-top: 10px;
+    transition: 1s;
 
 }
 
+/* #title3:hover {
+    font-size: 55px;
+    transition: 0.5;
+} */
 .meusprojetos {
     display: flex;
     flex-direction: row;
@@ -594,6 +669,7 @@ footer {
     align-items: center;
 
 }
+
 /* .footer{
     text-align: center;
     align-items: center;

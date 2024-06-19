@@ -78,12 +78,14 @@
 }
 
 @media screen and (max-width: 700px) {
-    section{
+    section {
         min-height: 0;
     }
-    .ponto{
+
+    .ponto {
         display: none;
     }
+
     .topo {
         display: flex;
         flex-direction: column;
@@ -92,16 +94,20 @@
         align-self: center;
     }
 
-    .nav-desktop{
+    .nav-desktop {
         display: none;
     }
-    .btn-abrir-menu, .nav-mobile{
+
+    .btn-abrir-menu,
+    .nav-mobile {
         display: block;
         margin-left: 85%;
     }
-    .btn-fechar{
+
+    .btn-fechar {
         text-align: left;
     }
+
     .meu-nome {
         margin-left: -2%;
         margin-bottom: 70px;
@@ -118,14 +124,18 @@
     }
 
     @keyframes palavras {
-        0%, 50%{
+
+        0%,
+        50% {
             content: "Software Developer";
         }
-        51%, 100%{
+
+        51%,
+        100% {
             content: "Front-end Developer";
         }
     }
-    
+
     #imgSobreMim {
         display: none;
     }
@@ -184,7 +194,13 @@
     .habilidades {
         margin-top: -100px;
     }
-/* Arrumar a responsividade baseado no site de iuri code */
+
+    .imghabi1,
+    .imghabi2 {
+        margin-left: 0%;
+    }
+
+    /* Arrumar a responsividade baseado no site de iuri code */
     #title2 {
         position: relative;
         /* margin-left: 37%; */
@@ -194,45 +210,59 @@
 
     #icons {
         font-size: 65px;
-        margin-top: 10%;/* novo */
-        line-height: -40%;/* novo */
+        margin-top: 10%;
+        /* novo */
+        line-height: -40%;
+        /* novo */
     }
 
-    #card1, #card5 {
+    .txts {
+        display: none;
+    }
+
+    #card1,
+    #card5 {
         width: 40%;
         height: 130px;
         margin-left: 9%;
         margin-top: 4%;
         text-align: center;
-        line-height: -40%; /* novo */
+        line-height: -40%;
+        /* novo */
     }
 
-    #card2, #card6{
+    #card2,
+    #card6 {
         width: 40%;
         height: 130px;
         margin-left: 3%;
         margin-top: 4%;
         text-align: center;
-        line-height: -40%; /* novo */
+        line-height: -40%;
+        /* novo */
     }
 
-    #card3, #card7{
+    #card3,
+    #card7 {
         width: 40%;
         height: 130px;
         margin-left: -83%;
         margin-top: 26%;
         text-align: center;
-        line-height: -40%; /* novo */
+        line-height: -40%;
+        /* novo */
     }
 
-    #card4, #card8{
+    #card4,
+    #card8 {
         width: 40%;
         height: 130px;
         margin-left: 3%;
         margin-top: 26%;
         text-align: center;
-        line-height: -40%; /* novo */
-        
+        line-height: -40%;
+        /* novo */
+
     }
 
     /* #card5 {
@@ -329,17 +359,28 @@
     #foto {
         width: 200px;
     }
-    #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8{
+
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5,
+    #card6,
+    #card7,
+    #card8 {
         height: 100px;
     }
-    #card3, #card7{
+
+    #card3,
+    #card7 {
         margin-top: 32%;
     }
 
-    #card4, #card8{
+    #card4,
+    #card8 {
         margin-top: 32%;
     }
-    
+
 }
 
 @media screen and (max-width: 430px) {
@@ -347,6 +388,7 @@
     #foto {
         /* margin-left: 28%; */
     }
+
     .divRedes {
         margin-top: 10%;
         padding-bottom: 15%;
@@ -358,39 +400,46 @@
 
 }
 
-@media screen and (max-width: 414px)and (max-height: 896px) {
-}
+@media screen and (max-width: 414px)and (max-height: 896px) {}
 
-@media screen and (max-width: 414px) {
-}
+@media screen and (max-width: 414px) {}
 
 @media screen and (max-width: 390px) {
-    #card3, #card7, #card4, #card8{
+
+    #card3,
+    #card7,
+    #card4,
+    #card8 {
         margin-top: 33%;
     }
 }
 
 @media screen and (max-width: 375px) {
-    #card3, #card7, #card4, #card8{
+
+    #card3,
+    #card7,
+    #card4,
+    #card8 {
         margin-top: 35%;
     }
+
     .divRedes {
         margin-top: 0%;
     }
 }
 
-@media screen and (max-width: 360px) {
-
-}
+@media screen and (max-width: 360px) {}
 
 @media screen and (max-width: 320px) {
     .divRedes {
         margin-top: -50%;
     }
+
     #foto {
         width: 170px;
         margin-top: 20%;
     }
+
     .meu-nome {
         font-size: 23pt;
         margin-top: 80%;
@@ -400,7 +449,11 @@
         font-size: 22pt;
         margin-top: 95%;
     }
-    #card3, #card7, #card4, #card8{
+
+    #card3,
+    #card7,
+    #card4,
+    #card8 {
         margin-top: 39%;
     }
 }
