@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     background-color: #161616;
 }
 
@@ -378,7 +378,7 @@ section {
 
 #card1 {
     width: 100px;
-    height: 100px;
+    /* height: 100px; */
     background-color: #131313;
     position: relative;
     margin-left: 28%;
@@ -387,6 +387,7 @@ section {
     border-radius: 5px;
     align-content: center;
     border: solid 1px #131313;
+    overflow: hidden;
 }
 
 #card1:hover {
@@ -600,6 +601,7 @@ section {
     margin-left: 17%;
     margin-top: 5%;
     margin-bottom: 2%;
+    border-color: #00BF3D;
 }
 
 #cardProjeto2 {
