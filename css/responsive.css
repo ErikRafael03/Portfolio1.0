@@ -1,27 +1,9 @@
-@media screen and (max-width: 1310px) {
-    .linkcard {
-        margin-left: 40%;
-    }
-}
-
 @media screen and (max-width: 1270px) {
 
     #cardProjeto1,
     #cardProjeto2,
     #cardProjeto3 {
         height: 200px;
-    }
-}
-
-@media screen and (max-width: 1215px) {
-    .linkcard {
-        margin-left: 35%;
-    }
-}
-
-@media screen and (max-width: 1134px) {
-    .linkcard {
-        margin-left: 30%;
     }
 }
 
@@ -32,19 +14,19 @@
     #cardProjeto3 {
         height: 228px;
     }
-
-    .linkcard {
-        margin-left: 30%;
-    }
 }
 
-@media screen and (max-width: 1075px){
-    .cards-habilidades1, .cards-habilidades2{
+@media screen and (max-width: 1075px) {
+
+    .cards-habilidades1,
+    .cards-habilidades2 {
         margin-left: 0%;
     }
-    .txts{
+
+    .txts {
         display: none;
     }
+
     /* EDITADO 29/07 */
 }
 
@@ -53,18 +35,8 @@
         display: inline;
     }
 
-    .linkcard {
-        margin-left: 15%;
-    }
-
     #foto {
         width: 250px;
-    }
-}
-
-@media screen and (max-width: 911px) {
-    .linkcard {
-        margin-left: 8%;
     }
 }
 
@@ -88,14 +60,11 @@
 }
 
 @media screen and (max-width: 700px) {
-    section {
+
+    /* section {
         min-height: 0;
-    }
-
-    .ponto {
-        display: none;
-    }
-
+    } */
+    /*********** INICIO********* */
     .topo {
         display: flex;
         flex-direction: column;
@@ -146,10 +115,6 @@
         }
     }
 
-    #imgSobreMim {
-        display: none;
-    }
-
     #foto {
         margin-top: -20px;
         width: 220px;
@@ -180,16 +145,17 @@
         padding: 0;
     }
 
+    /*********** INICIO********* */
+
+    /*********** SOBRE MIM********* */
     .sobremim {
         padding-top: 10px;
-        display: flex;
-        flex-direction: column;
     }
 
-    #title1 {
-        position: relative;
-        /* margin-left: 37%; */
-        font-size: 40px;
+    #title1,
+    #title2,
+    #title3 {
+        font-size: 50px;
         margin-bottom: 2%;
     }
 
@@ -201,28 +167,18 @@
         font-size: 20px;
     }
 
+    /*********** SOBRE MIM********* */
+
+    /*********** HABILIDADES********* */
     .habilidades {
         margin-top: -100px;
-    }
-
-    .imghabi1,
-    .imghabi2 {
-        margin-left: 0%;
-    }
-
-    /* Arrumar a responsividade baseado no site de iuri code */
-    #title2 {
-        position: relative;
-        /* margin-left: 37%; */
-        font-size: 40px;
-        margin-bottom: 5%;
     }
 
     #icons {
         font-size: 65px;
         margin-top: 10%;
         /* novo */
-        line-height: -40%;
+        line-height: 50%;
         /* novo */
     }
 
@@ -230,86 +186,97 @@
         display: none;
     }
 
-    #card1,
+    #card1 {
+        width: 40%;
+        height: 130px;
+        margin-top: 4%;
+        margin-bottom: 100px;
+        text-align: center;
+        line-height: 50%;
+        position: relative;
+        /* novo */
+    }
+
+    #card2 {
+        width: 40%;
+        height: 130px;
+        margin-top: 4%;
+        margin-bottom: 100px;
+        text-align: center;
+        line-height: 50%;
+        /* novo */
+    }
+
+    #card3 {
+        width: 40%;
+        height: 130px;
+        margin-left: -82%;
+        margin-top: 165px;
+        text-align: center;
+        line-height: 50%;
+        /* novo */
+    }
+
+    #card4 {
+        width: 40%;
+        height: 130px;
+        margin-left: 2%;
+        margin-top: 165px;
+        text-align: center;
+        line-height: 50%;
+        /* novo */
+
+    }
+
     #card5 {
         width: 40%;
         height: 130px;
-        margin-left: 9%;
-        margin-top: 4%;
+        margin-top: 2.5%;
+        margin-left: 0%;
         text-align: center;
-        line-height: -40%;
+        line-height: 50%;
         /* novo */
     }
 
-    #card2,
+
+
     #card6 {
         width: 40%;
         height: 130px;
-        margin-left: 3%;
-        margin-top: 4%;
+        margin-top: 2.5%;
         text-align: center;
-        line-height: -40%;
+        line-height: 50%;
         /* novo */
     }
 
-    #card3,
+
+
     #card7 {
         width: 40%;
         height: 130px;
-        margin-left: -83%;
-        margin-top: 26%;
+        margin-left: -82%;
+        margin-top: 157px;
         text-align: center;
-        line-height: -40%;
+        line-height: 50%;
         /* novo */
     }
 
-    #card4,
+
+
     #card8 {
         width: 40%;
         height: 130px;
-        margin-left: 3%;
-        margin-top: 26%;
+        margin-left: 2%;
+        margin-top: 157px;
         text-align: center;
-        line-height: -40%;
+        line-height: 50%;
         /* novo */
 
     }
 
-    /* #card5 {
-        width: 40%;
-        height: 20%;
-        margin-left: 9%;
-        margin-top: 4%;
-    }
+    /*********** HABILIDADES********* */
 
-    #card6 {
-        width: 90px;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    }
-
-    #card7 {
-        width: 90px;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    }
-
-    #card8 {
-        width: 90px;
-        height: 25%;
-        margin-left: 3%;
-        margin-top: 2%;
-    } */
-
-    #title3 {
-        position: relative;
-        /* margin-left: 43%; */
-        font-size: 40px;
-        margin-bottom: 5%;
-    }
-
+    /*********** PORJETOS********* */
     #cardProjeto1 {
         width: 84%;
         height: 190px;
@@ -356,13 +323,7 @@
 
     }
 
-    .linkcard {
-        margin-left: 0;
-    }
-
-    #txtfooter {
-        font-size: 13pt;
-    }
+    /*********** PORJETOS********* */
 }
 
 @media screen and (max-width: 530px) {
@@ -370,75 +331,49 @@
         width: 200px;
     }
 
-    #card1,
-    #card2,
-    #card3,
-    #card4,
-    #card5,
-    #card6,
-    #card7,
-    #card8 {
-        height: 100px;
+    #card3, #card4{
+        margin-top: 160px;
     }
-
-    #card3,
-    #card7 {
-        margin-top: 32%;
-    }
-
-    #card4,
-    #card8 {
-        margin-top: 32%;
+    #card7, #card8{
+        margin-top: 152px;
     }
 
 }
 
 @media screen and (max-width: 430px) {
-
-    #foto {
-        /* margin-left: 28%; */
-    }
-
     .divRedes {
         margin-top: 10%;
         padding-bottom: 15%;
     }
-
-    #icons {
-        font-size: 50px;
-    }
-
-}
-
-@media screen and (max-width: 414px)and (max-height: 896px) {}
-
-@media screen and (max-width: 414px) {}
-
-@media screen and (max-width: 390px) {
-
-    #card3,
-    #card7,
-    #card4,
-    #card8 {
-        margin-top: 33%;
+    #title1,
+    #title2,
+    #title3 {
+        font-size: 48px;
     }
 }
 
 @media screen and (max-width: 375px) {
-
-    #card3,
-    #card7,
-    #card4,
-    #card8 {
-        margin-top: 35%;
-    }
-
     .divRedes {
         margin-top: 0%;
     }
+    #title1,
+    #title2,
+    #title3 {
+        font-size: 40px;
+    }
+    #icons {
+        font-size: 50px;
+    }
+    #card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8{
+        height: 100px;
+    }
+    #card3, #card4{
+        margin-top: 120px;
+    }
+    #card7, #card8{
+        margin-top: 115px;
+    }
 }
-
-@media screen and (max-width: 360px) {}
 
 @media screen and (max-width: 320px) {
     .divRedes {
@@ -458,12 +393,5 @@
     .mensagem {
         font-size: 22pt;
         margin-top: 95%;
-    }
-
-    #card3,
-    #card7,
-    #card4,
-    #card8 {
-        margin-top: 39%;
     }
 }
