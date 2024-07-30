@@ -18,7 +18,7 @@
 
 <body class="body">
   <!-- INICIO SECTION 1 -->
-  <section>
+  <section class="sectionNav">
     <div class="topo">
       <div class="nav-desktop">
         <nav>
@@ -74,7 +74,7 @@
     <div class="sobremim">
 
       <span id="title1">Sobre Mim</span><span class="ponto"> .</span>
-      <img src="assets/IMGsobremim.png" alt="Foto de perfil" id="imgSobreMim">
+      <!-- <img src="assets/IMGsobremim.png" alt="Foto de perfil" id="imgSobreMim"> -->
 
 
       <div id="txtsobremim">
@@ -97,7 +97,6 @@
       <span id="title2">Habilidades</span><span class="ponto"> .</span>
 
       <!-- <div class="cardsHab1"> -->
-      <div class="imghabi1">
         <div class="txts">
           <p id="txtfixo">
             *Passe o cursor do mouse no card para ler*
@@ -131,6 +130,7 @@
             React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componentizada.
           </p>
         </div>
+      <div class="cards-habilidades1">
         <!-- onmouseout="mostrartxt1()" onmouseover="tirartxt1()" -->
         <div id="card1" onmouseout="mostrartxt1()" onmouseover="tirartxt1()">
           <div>
@@ -158,7 +158,7 @@
       </div>
       <!-- </div> -->
       <!-- <div class="cardsHab2"> -->
-      <div class="imghabi2">
+      <div class="cards-habilidades2">
         <div id="card5" onmouseout="mostrartxt5()" onmouseover="tirartxt5()">
           <div>
             <i class="devicon-dotnetcore-plain" id="icons"></i>
@@ -192,16 +192,20 @@
     <div class="projetos">
       <span id="title3">Projetos</span><span class="ponto"> .</span>
       <div class="meusprojetos">
+        
         <div class="card" id="cardProjeto1">
           <div class="card-body">
             <span id="subtitle">Nexus</span>
             <div class="txtcard">
               <p>Fique por dentro das principais notícias do mundo geek por meio do Nexus.</p>
-              <a href="https://erikrafael03.github.io/Nexus/" class="linkcard">Visualizar
+              <div class="linkcard">
+              <a href="https://erikrafael03.github.io/Nexus/" class="link">Visualizar
                 Projeto</a>
+              </div>  
             </div>
           </div>
         </div>
+
         <div class="card" id="cardProjeto2">
           <div class="card-body">
             <span id="subtitle">Em Breve...</span>

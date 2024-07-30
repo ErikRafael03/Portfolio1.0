@@ -38,6 +38,16 @@
     }
 }
 
+@media screen and (max-width: 1075px){
+    .cards-habilidades1, .cards-habilidades2{
+        margin-left: 0%;
+    }
+    .txts{
+        display: none;
+    }
+    /* EDITADO 29/07 */
+}
+
 @media screen and (max-width: 992px) {
     #nav {
         display: inline;

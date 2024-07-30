@@ -16,10 +16,10 @@
 }
 
 body {
-    background-color: #0c0c0c;
+    background-color: #050505;
 }
 
-section {
+.sectionNav {
     display: grid;
     min-height: 100vh;
 }
@@ -236,15 +236,6 @@ section {
     }
 }
 
-#btnBaixarCV {
-    position: absolute;
-    margin-top: 24%;
-    margin-left: 60px;
-    background-color: #00bf3cd2;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 10%;
-}
-
 .insta {
     width: 35px;
     margin-left: 3px;
@@ -298,15 +289,30 @@ section {
 
 }
 
-/* #title1:hover {
-    font-size: 55px;
-    transition: 0.5;
-} */
 .ponto {
-    font-size: 50px;
+    font-size: 80px;
     color: #00BF3D;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #00BF3D;
+    }
+    25% {
+        color: #30C25E;
+    }
+    50% {
+        color: #7CBF92;
+    }
+    75% {
+        color: #2B332E;
+    }
+    100% {
+        color: #8FBF9F;
+    }
 }
 
 #foto {
@@ -327,8 +333,8 @@ section {
 #txtsobremim {
     color: white;
     position: relative;
-    margin-left: 40%;
-    margin-right: 8%;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 80px;
     line-height: 23px;
     font-size: 18px;
@@ -349,65 +355,38 @@ section {
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-left: 41%; */
     margin-top: 1;
-    /* margin-bottom: 40%; */
 }
 
-.imghabi1 {
+.cards-habilidades1 {
     display: flex;
-    /* flex-direction: row; */
+    justify-content: center;
     position: relative;
     padding: 0;
-    margin-left: 42%;
+    margin-left: 38%;
 
 }
 
-.imghabi2 {
+.cards-habilidades2 {
     display: flex;
-    /* flex-direction: row; */
+    justify-content: center;
     position: relative;
     padding: 0;
-    margin-left: 42%;
+    margin-left: 38%;
 }
-
-#icons {
-    font-size: 70px;
-    color: #00BF3D;
-}
-
-#card1 {
-    width: 100px;
-    /* height: 100px; */
-    background-color: #131313;
-    position: relative;
-    margin-left: 28%;
-    margin-top: 8%;
-    transition: 1.3s;
-    border-radius: 5px;
-    align-content: center;
-    border: solid 1px #131313;
-    overflow: hidden;
-}
-
-#card1:hover {
-    border-color: #00BF3D;
-    transition: 1s;
-}
-
+/* CÓDIGO PARA PASSAR O MOUSE E MOSTRAR UM TEXTO */
 .txts {
-    width: 50%;
+    width: 35%;
     position: absolute;
-    margin-top: 8%;
-    margin-left: -60%;
+    margin-top: 5%;
+    margin-left: 16%;
 }
 
 #txtfixo {
     display: block;
     padding: 5%;
-    /* border: solid 1px; */
     width: 100%;
-    font-size: 12pt;
+    font-size: 14pt;
     color: rgb(138, 131, 131);
 }
 
@@ -424,17 +403,39 @@ section {
     padding: 3%;
     border-radius: 5px;
     text-align: left;
-    font-size: 12pt;
+    font-size: 14pt;
     color: rgb(177, 171, 171);
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* CÓDIGO PARA PASSAR O MOUSE E MOSTRAR UM TEXTO */
+
+#icons {
+    font-size: 300%;
+    color: #00BF3D;
+}
+
+#card1 {
+    width: 100px;
+    height: 100px;
+    background-color: #131313;
+    margin-top: 8%;
+    transition: 1.3s;
+    border-radius: 5px;
+    align-content: center;
+    border: solid 1px #131313;
+    overflow: hidden;
+    /* padding: 0%; */
+}
+
+#card1:hover {
+    border-color: #00BF3D;
+    transition: 1s;
+}
+
 #card2 {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 8%;
     border-radius: 5px;
@@ -452,7 +453,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 8%;
     transition: 1.3s;
@@ -470,7 +470,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 8%;
     transition: 1.3s;
@@ -488,8 +487,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
-    margin-left: 28%;
     margin-top: 2%;
     margin-bottom: 10%;
     transition: 1.3s;
@@ -507,7 +504,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
@@ -526,7 +522,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
@@ -545,7 +540,6 @@ section {
     width: 100px;
     height: 100px;
     background-color: #131313;
-    position: relative;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 10%;
@@ -570,16 +564,10 @@ section {
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-left: 43%; */
     margin-top: 10px;
     transition: 1s;
 
 }
-
-/* #title3:hover {
-    font-size: 55px;
-    transition: 0.5;
-} */
 .meusprojetos {
     display: flex;
     flex-direction: row;
@@ -587,15 +575,15 @@ section {
 }
 
 #subtitle {
-    font-size: 20px;
+    font-size: 18pt;
     color: white;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #cardProjeto1 {
-    width: 20%;
-    height: 190px;
+    width: 22%;
+    height: 25%;
     background-color: #131313;
     position: relative;
     margin-left: 17%;
@@ -605,23 +593,25 @@ section {
 }
 
 #cardProjeto2 {
-    width: 20%;
-    height: 190px;
+    width: 22%;
+    height: 25%;
     background-color: #131313;
     position: relative;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-top: 5%;
     margin-bottom: 2%;
+    padding-bottom: 3.5%;
 }
 
 #cardProjeto3 {
-    width: 20%;
-    height: 190px;
+    width: 22%;
+    height: 25%;
     background-color: #131313;
     position: relative;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-top: 5%;
     margin-bottom: 2%;
+    padding-bottom: 3.5%;
 }
 
 #cardProjeto4 {
@@ -655,12 +645,18 @@ section {
     color: #a7a7a7;
     margin-top: 6%;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-
-.linkcard {
+.linkcard{
+    text-align: right;
+}
+.link{
     text-decoration: none;
     color: #00BF3D;
-    margin-left: 45%;
+    font-size: 14pt;
+}
+.link:hover {
+    color: #044418;
 }
 
 footer {
@@ -678,12 +674,13 @@ footer {
 } */
 #txtfooter {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13pt;
+    font-size: 14pt;
     /* margin-left: 42%; */
     margin-top: 10px;
-    color: #302f2f;
+    color: #a7a7a7;
 }
 
 .linkfooter {
     text-decoration: none;
+    color: #00BF3D;
 }
