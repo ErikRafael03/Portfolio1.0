@@ -177,9 +177,6 @@
     #icons {
         font-size: 65px;
         margin-top: 50%;
-        /* novo */
-        line-height: -100%;
-        /* novo */
     }
 
     .txts {
@@ -192,7 +189,7 @@
         margin-top: 4%;
         margin-bottom: 100px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         position: relative;
         /* novo */
     }
@@ -203,7 +200,7 @@
         margin-top: 4%;
         margin-bottom: 100px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
     }
 
@@ -213,7 +210,7 @@
         margin-left: -82%;
         margin-top: 165px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
     }
 
@@ -223,7 +220,7 @@
         margin-left: 2%;
         margin-top: 165px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
 
     }
@@ -234,7 +231,7 @@
         margin-top: 2.5%;
         margin-left: 0%;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
     }
 
@@ -245,7 +242,7 @@
         height: 130px;
         margin-top: 2.5%;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
     }
 
@@ -257,7 +254,7 @@
         margin-left: -82%;
         margin-top: 157px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
     }
 
@@ -269,7 +266,7 @@
         margin-left: 2%;
         margin-top: 157px;
         text-align: center;
-        line-height: -100%;
+        /* line-height: -100%; */
         /* novo */
 
     }
