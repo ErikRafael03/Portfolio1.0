@@ -408,6 +408,8 @@ body {
 #icons {
     font-size: 300%;
     color: #00BF3D;
+    transform: translateY(-50%);
+    line-height: 1.5;
 }
 
 #card1 {
@@ -420,6 +422,7 @@ body {
     align-content: center;
     border: solid 1px #131313;
     overflow: hidden;
+    
 }
 
 #card1:hover {
