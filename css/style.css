@@ -577,6 +577,7 @@ body {
     margin-top: 5%;
     margin-bottom: 2%;
     border-color: #00BF3D;
+    transition: 0.5s;
 }
 
 #cardProjeto2 {
@@ -587,7 +588,8 @@ body {
     margin-left: 1%;
     margin-top: 5%;
     margin-bottom: 2%;
-    padding-bottom: 3.5%;
+    border-color: #00BF3D;
+    transition: 0.5s;
 }
 
 #cardProjeto3 {
@@ -643,7 +645,7 @@ body {
     font-size: 14pt;
 }
 .link:hover {
-    color: #044418;
+    color: #1d8f41;
 }
 
 footer {
