@@ -4,168 +4,278 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/fonts.css">
-  <link rel="shortcut icon" href="./assets/logo-Icon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="shortcut icon" href="assets/Icon/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>JM Store</title>
+  <script src="./js/script.js" defer></script>
+  <title>Portfólio | Erik Rafael</title>
 </head>
 
-<body>
-  <header>
-    <div class="nav-title">
-      <a href="./index.html">
-        <h1>JM Store</h1>
-      </a>
-    </div>
+<body class="body">
+  <!-- INICIO SECTION 1 -->
+  <section class="section-inicio">
+    <div class="topo">
+      <div class="nav-desktop">
+        <nav>
+          <a href="#sobremim">Sobre Mim</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#projetos">Projetos</a>
+          <a href="./files/Erik_Currículo.pdf">Visualizar CV</a>
+        </nav>
+      </div>
 
-    <div class="nav-links">
-      <ul>
-        <a href="./index.html">
-          <li>Início</li>
-        </a>
-        <a href="./pages/camisas.html">
-          <li>Camisetas</li>
-        </a>
-        <a href="#fale-conosco">
-          <li>Fale Conosco</li>
-        </a>
-      </ul>
-    </div>
-
-    <div class="nav-icons">
-      <a href="./pages/login.html"><i class="bi bi-person"></i></a>
-      <a href="./pages/sacola.html"><i class="bi bi-bag"></i></a>
-    </div>
-  </header>
-
-  <div class="mobile">
-    <div class="mobile2">
-      <a href="./index.html"><h1>JM Store</h1></a>
-      <div class="btn-abir-menu" id="btn-menu">
+      <div class="btn-abrir-menu" id="btn-menu">
         <i class="bi bi-list"></i>
       </div>
-    </div>
-    <div class="menu-mobile" id="menu-mobile">
-      <div class="btn-fechar">
-        <i class="bi bi-x-lg"></i>
+      <div class="nav-mobile" id="nav-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#sobremim">Sobre Mim</a></li>
+            <br>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <br>
+            <li><a href="#projetos">Projetos</a></li>
+            <br>
+            <li><a href="./files/Erik_Currículo.pdf">Visualizar CV</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <nav>
-        <ul>
-          <li><a href="./index.html">Início</a></li>
-          <li><a href="./pages/camisas.html">Camisetas</a></li>
-          <li><a href="#fale-conosco">Fale Conosco</a></li>
-          <a href="./pages/login.html"><i class="bi bi-person"></i></a>
-          <a href="./pages/sacola.html"><i class="bi bi-bag"></i></a>
-        </ul>
-      </nav>
+      <div class="overlay-menu" id="overlay-menu">
+
+      </div>
+
+      <div class="title-inicio">
+        <img src="assets/foto.png" alt="Foto de perfil" id="foto">
+        <span class="meu-nome">Erik Rafael</span>
+        <span class="mensagem"></span>
+      </div>
+
+      <div class="divRedes">
+        <a href="https://github.com/ErikRafael03"><i class="fa-brands fa-github" id="git"></i></a>
+        <a href="https://www.linkedin.com/in/erik-rafael/"><i class="fa-brands fa-linkedin" id="likendin"></i></a>
+        <a href="https://www.instagram.com/erikr.__/"><i class="fa-brands fa-square-instagram" id="insta"></i></a>
+      </div>
+
     </div>
+  </section>
+  <!-- FIM SECTION 1 -->
+
+  <!-- INICIO SECTION 2 -->
+  <section class="hidden">
+    <a href="" name="sobremim" style="position: absolute;"></a>
+    <div class="sobremim">
+      <span id="title1">Sobre Mim</span> <span class="ponto"> .</span>
+
+      <div id="txtsobremim">
+        <p>Meu nome é Erik Rafael e tenho 21 anos. Sou um entusiasta da tecnologia que decidiu
+          seguir o caminho da programação. Um aprendiz incansável, sempre disposto a
+          contribuir com meus conhecimentos.</p>
+        <p>Recentemente, concluí minha graduação em Análise e Desenvolvimento de Sistemas
+          (ADS) pela Universidade Mauricio de Nassau. Além disso, estou buscando uma
+          especialização em C# e Node.js, uma vez que tenho interesse em programação
+          front-end, mas pretendo migrar para o desenvolvimento back-end no futuro.</p>
+      </div>
+    </div>
+  </section>
+  <!-- FIM SECTION 2 -->
+
+  <!-- INICIO SECTION 3 -->
+  <section class="hidden">
+    <a href="" name="habilidades" style="position: absolute;"></a>
+    <div class="habilidades">
+      <span id="title2">Habilidades</span> <span class="ponto"> .</span>
+
+      <!-- <div class="cardsHab1"> -->
+      <div class="txts">
+        <p id="txtfixo">
+          *Passe o cursor do mouse no card para ler*
+        </p>
+        <p id="txt1">
+          HTML é a linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai
+          exibir.
+        </p>
+        <p id="txt2">
+          CSS é uma linguagem de folha de estilo composta por "camadas", criada com o propósito de estilizar as
+          páginas.
+        </p>
+        <p id="txt3">
+          JavaScript é uma linguagem de programação que permite a voçê implementar elementos dinâmicos em páginas web.
+        </p>
+        <p id="txt4">
+          Bootstrap é um framework front-end que facilita a criação de sites e aplicações web, oferecendo componentes
+          componentes CSS e JavaScript.
+        </p>
+        <p id="txt5">
+          .NET é uma plataforma de desenvolvimento que oferece um ambiente para o desenvolvimento e execução de
+          aplicações.
+        </p>
+        <p id="txt6">
+          C# é uma linguagem de programação moderna, orientada a objetos, e que faz parte do .NET
+        </p>
+        <p id="txt7">
+          Node.js é um ambiente de execução de JavaScript que permite executar código JavaScript fora de um navegador.
+        </p>
+        <p id="txt8">
+          React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componentizada.
+        </p>
+      </div>
+      <div class="cards-habilidades1">
+        <!-- onmouseout="mostrartxt1()" onmouseover="tirartxt1()" -->
+
+        <!-- <div id="card1" onmouseout="mostrartxt1()" onmouseover="tirartxt1()">
+          <div>
+            <i class="devicon-html5-plain" id="icons"></i>
+          </div>
+        </div> -->
+        <div class="card" id="card1" onmouseout="mostrartxt1()" onmouseover="tirartxt1()">
+          <div class="card-body">
+            <i class="devicon-html5-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card2" onmouseout="mostrartxt2()" onmouseover="tirartxt2()">
+          <div class="card-body">
+            <i class="devicon-css3-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card3" onmouseout="mostrartxt3()" onmouseover="tirartxt3()">
+          <div class="card-body">
+            <i class="devicon-javascript-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card4" onmouseout="mostrartxt4()" onmouseover="tirartxt4()">
+          <div class="card-body">
+            <i class="devicon-bootstrap-plain" id="icons"></i>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="cardsHab2"> -->
+      <div class="cards-habilidades2">
+        <div class="card" id="card5" onmouseout="mostrartxt5()" onmouseover="tirartxt5()">
+          <div class="card-body">
+            <i class="devicon-dotnetcore-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card6" onmouseout="mostrartxt6()" onmouseover="tirartxt6()">
+          <div class="card-body">
+            <i class="devicon-csharp-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card7" onmouseout="mostrartxt7()" onmouseover="tirartxt7()">
+          <div class="card-body">
+            <i class="devicon-nodejs-plain" id="icons"></i>
+          </div>
+        </div>
+
+        <div class="card" id="card8" onmouseout="mostrartxt8()" onmouseover="tirartxt8()">
+          <div class="card-body">
+            <i class="devicon-react-original" id="icons"></i>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+  </section>
+  <!-- FIM SECTION 3 -->
+  <section class="hidden">
+    <a href="" name="projetos" style="position: absolute;"></a>
+    <div class="projetos">
+      <span id="title3">Projetos</span> <span class="ponto"> .</span>
+      <div class="meusprojetos">
+
+        <div class="card" id="cardProjeto1">
+          <div class="card-body">
+            <span id="subtitle">Nexus</span>
+            <div class="txtcard">
+              <p>Fique por dentro das principais notícias do mundo geek por meio do Nexus.</p>
+              <div class="linkcard">
+                <a href="https://erikrafael03.github.io/Nexus/" class="link">Visualizar
+                  Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="cardProjeto2">
+          <div class="card-body">
+            <span id="subtitle">Barber Club</span>
+            <div class="txtcard">
+              <p>A Barber Club é uma landing page mobile-first responsiva para diferentes tamanhos de tela.</p>
+              <div class="linkcard">
+                <a href="https://erikrafael03.github.io/Barber-Club/" class="link">Visualizar Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="cardProjeto3">
+          <div class="card-body">
+            <span id="subtitle">JM Store</span>
+            <div class="txtcard">
+              <p>JM Store é uma loja de roupa criada com o objetivo de apoiar a venda de camisas para a minha igreja.</p>
+              <div class="linkcard">
+                <a href="https://erikrafael03.github.io/JM-Store/" class="link">Visualizar Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- <div class="meusprojetos">
+        <div class="card" id="cardProjeto4">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="cardProjeto5">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="cardProjeto6">
+          <div class="card-body">
+            <span id="subtitle">Em Breve...</span>
+            <div class="txtcard">
+              <p>Logo logo estarei postando novos projetos.</p>
+            </div>
+          </div>
+        </div>
+      </div>-->
   </div>
-  <section class="inicio">
-    <div class="title-inicio">
-    <h1>Nova camisa <span>JM</span></h1>
-    <p>JM Store</p>
-    </div>
-    <i class="bi bi-globe"></i>
-    <img src="./assets/camisa-preta-frente-verso.png" alt="">
-  </section>
-
-  <!-- <img id="img-inicio" src="./assets/img-inicio-JM2.jpg" alt="imagem inicial"> -->
-  <section>
-
-    <div class="destaques">
-      <h2>Confira nossas novidades</h2>
-      <div class="cards-destaques">
-        <div class="responsive-cards1">
-        <div class="card" onclick="redirectToBuyPageIndex('black-shirt')">
-          <div class="card-img">
-            <img src="./assets/camisa-preta1.png" class="card-img-top" alt="camiseta-preta">
-          </div>
-          <div class="card-body">
-            <p id="card-name">Camiseta juventude preta</p>
-            <p id="card-price">R$ 50.00</p>
-          </div>
-        </div>
-
-
-        <div class="card" onclick="redirectToBuyPageIndex('white-shirt')">
-          <img src="./assets/camisa-branca.png" class="card-img-top" alt="camiseta-branca">
-          <div class="card-body">
-            <p id="card-name">Camiseta juventude branca</p>
-            <p id="card-price">R$ 50.00</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="responsive-cards2">
-        <div class="card" onclick="redirectToBuyPageIndex('green-shirt')">
-          <img src="./assets/camisa-verde.png" class="card-img-top" alt="camiseta-verde">
-          <div class="card-body">
-            <p id="card-name">Camiseta juventude verde</p>
-            <p id="card-price">R$ 50.00</p>
-          </div>
-        </div>
-
-
-        <div class="card" onclick="redirectToBuyPageIndex('red-shirt')">
-          <img src="./assets/camisa-vermelha.png" class="card-img-top" alt="camiseta-vermelha">
-          <div class="card-body">
-            <p id="card-name">Camiseta juventude vermelha</p>
-            <p id="card-price">R$ 50.00</p>
-          </div>
-        </div>
-
-      </div>
-      </div>
-    </div>
-
-    <div class="fale-conosco"><a href="" name="fale-conosco" style="position: absolute;"></a>
-      <div class="title-fale-conosco">
-        <h2>Fale Conosco</h2>
-        <p>Entre em contato para dúvidas, sugestões ou suporte. Preencha o
-          formulário abaixo ou envie-nos uma mensagem. Estamos à disposição para ajudar!</p>
-      </div>
-
-      <div class="input-fale-conosco">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="exemplo@gmail.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Digite aqui</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary mb-3" id="btn-inicio">Enviar</button>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="title-footer">
-      <h2>JM Store</h2>
-    </div>
-
-    <div class="contato-footer">
-      <h5>Juventude em Movimento</h5>
-      <p>Copyright &copy; <a href="https://erikrafael03.github.io/Portfolio1.0/">Erik Rafael</a></p>
-    </div>
-
-    <div class="icons-footer">
-      <a href="https://www.instagram.com/juventude_movimentoo/"><i class="bi bi-instagram"></i></a>
-      <i class="bi bi-whatsapp"></i>
-    </div>
+  <footer class="footer">
+    <br>
+    <span id="txtfooter">Copyright © 2024 <a href="https://www.linkedin.com/in/erik-rafael/" class="linkfooter">Erik
+        Rafael</a></span>
   </footer>
-  <script src="./js/sacola.js"></script>
-  <script src="./js/pg-venda.js"></script>
-  <script src="./js/script.js"></script>
-  <script src="https://kit.fontawesome.com/368b25fd34.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/368b25fd34.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
